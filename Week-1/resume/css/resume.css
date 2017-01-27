@@ -1,0 +1,19 @@
+body {
+  background-color: #a2a6ad;
+}
+
+.txtcnt{
+  text-align: center;
+}
+
+#skillsright{
+  position: relative;
+  float: right;
+  margin-right: 30%;
+  margin-top: 0;
+}
+
+#skillsleft{
+  margin-left: 20%;
+  margin-top: 0;
+}
