@@ -1,20 +1,35 @@
+
+*{
+  text-align: center;
+}
 body {
   background-color: #207ce5:
-
+  text-align:center;
 }
-
 img {
-  border-radius:  50%;
+  border-radius:  75%;
+  text-align: center;
+  height: 25%;
+  width: 25%;
+  position: relative;
 }
 
 h1{
-  background-position: right;;
+  background-position: right;
   flex-flow: wrap;
+  text-align: center;
 }
 bane {
-  border-spacing: 50px;
-  margin: 75%;
-  overflow: auto;
-  width: 100%;
-
+position: relative;
+border-spacing: 50px;
+margin: 75%;
+overflow: auto;
+width: 100%;
+text-align: center;
+height: 25%;
+width: 25%;
+}
+p {
+  text-align: center;
+ß
 }
