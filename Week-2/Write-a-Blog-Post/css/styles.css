@@ -9,6 +9,7 @@ body {
 header {
   text-align: center;
   height: 5%;
+  color: white;
 }
 
 aside{
@@ -40,7 +41,7 @@ nav > ul > li{
   padding: 10px;
   margin: 5px;
   border: dotted black 1px;
-  background-color: grey;
+  background-color: white;
 }
 
 section.sec{
