@@ -36,34 +36,27 @@ font-size: 60px;
 }
 
 img {
-  position: relative;
+  display:inline-block;
+  width: 20%;
+  height: auto;
   padding-top: 3%;
 
 }
 
 p {
-  position: relative;
-  width: 50%;
-  padding-bottom: 3%;
+  text-align: left;
+  font-size: 17px;
+  padding-bottom: 1%;
 }
 
-
-
-#posts {
-  position: relative;
-  float: left;
-display: inline;
-  padding-top: 5%;
+.content {
+  display:inline-block;
+  width: 40%;
+  padding-left: 8px;
 }
 
 h6 {
 
 font-size: 16px;
 clear: right;
-}
-
-p {
-text-align: left;
-font-size: 12px;
-
 }
