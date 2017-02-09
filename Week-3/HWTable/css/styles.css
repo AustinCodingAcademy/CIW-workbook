@@ -1,0 +1,32 @@
+table{
+  background-color: #0C2F4C;
+  color: White;
+}
+
+table, th, td {
+  border: 1px solid #1FCACB;
+  padding: 5px;
+  margin: 5px;
+}
+
+.title {
+  background-color: #2A80CB;
+  font-size: 37px;
+}
+
+.header {
+  background-color: #4B7294;
+  font-size: 28px;
+}
+
+.data {
+  background-color: #5493CB;
+  font-size: 22px;
+}
+
+.empty {
+  height: 50px;
+  width: 50px;
+  background-color: #5D62CB;
+  border: none;
+}
