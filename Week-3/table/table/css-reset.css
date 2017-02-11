@@ -1,0 +1,62 @@
+tr td {
+  padding: 10px;
+  text align: center;
+  margin: 5px;
+}
+
+table{
+  height: 40%;
+  text-align: center;
+  color: #ffffff;
+}
+#title{
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#th1 {
+  background-color: #ff0000;
+}
+#th2 {
+  background-color: #0066ff;
+
+}
+#th4{
+  background-color: #6600cc;
+}
+#th5{
+  background-color: #663300;
+}
+#blank{
+  width: 10%;
+  background-color: grey;
+}
+#bottom{
+  height: 10%;
+  background-color:grey;
+}
+.rest{
+width: 15%;
+  background-color:  #80ffcc;
+
+}
+.resttd{
+  background-color:  #00e673;
+}
+
+.day1{
+  background-color: #ff9999;
+}
+
+.day2{
+  background-color: #66a3ff;
+
+}
+
+.day4{
+background-color:  #9933ff;
+
+}
+.day5{
+  background-color: #996633;
+}
