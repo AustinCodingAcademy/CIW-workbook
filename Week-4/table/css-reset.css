@@ -1,0 +1,85 @@
+
+table {border-collapse: collapse;}
+table, th, td{border: 10px dotted red;
+width: 50%;
+
+}
+
+th {height: 50px;
+  text-align: left;
+  vertical-align: bottom;
+  background-color: red;
+  font-size: 20px;
+  color:white;
+}
+
+th, td {padding: 15px;
+text-align: center;
+
+}
+
+tr:hover {background-color: gray;
+
+}
+td {font-style: normal;
+font-size: 30px}
+th {font-size: 55px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+  border-top: 20px solid black;
+  border-bottom: 20px solid black;
+  border-left: 20px solid black;
+  border-right: 20px solid black;
+  border-collapse: separate;;
+  border-spacing: inherit;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: inherit;
+  background-color: gray;
+  text-align: center;
+  vertical-align: middle;
+  column-span: 5;
+  font-size: 80px;
+}
+body{
+  border-top: 50px solid black;
+  border-bottom: 50px solid black;
+  border-left: 50px solid black;
+  border-right: 50px solid black;
+  border-collapse: collapse;
+  font-size: 80px;
+
+}
+table{border-top: 10px dotted red;
+border-bottom: 10px dotted red;
+border-left: 10px dotted red;
+border-right: 10px dotted red;
+border-collapse: separate;
+border-spacing: 120px;
+padding-top: 15px;
+padding-bottom: 25px;
+padding-left: 25px;
+padding-right: 25px;
+width: inherit;
+background-color: white;
+text-align: center;
+vertical-align: middle;
+column-span: 5;
+
+
+}

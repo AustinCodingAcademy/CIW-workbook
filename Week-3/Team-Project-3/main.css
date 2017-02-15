@@ -1,0 +1,92 @@
+body{
+
+  background-image:url("airline.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+header {
+  width: 100%;
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  margin-right: 1%;
+  overflow: hidden;
+  background-color: #003D4A;
+
+}
+.logo {
+  float: left;
+width: 50%;
+}
+
+
+.nav {
+  width: 50%;
+  float: right;
+  background-color: #003D4A;
+
+}
+
+.total {
+background-color: #003D4A;
+  width: 25%;
+  margin-top: 10%;
+  margin-left: 12%;
+
+
+
+
+
+}
+
+.home {
+  float: left;
+}
+
+.deals{
+  float: left;
+}
+
+.schedule {
+  float: left;
+}
+.register {
+
+  float: left;
+}
+
+.entry {
+  background-color: #003D4A;
+  height: 380px;
+
+}
+.depart {
+  border: 2px solid white;
+  width: 40%;
+  height: 30%;
+  margin-top: 40px;
+  font-size: 16px;
+
+
+}
+
+.airplane {
+  float: left;
+  width: 33%;
+  background-color: #3e3dc7;
+
+}
+
+.bed {
+  float: left;
+  width: 33%;
+  background-color: #079163;
+}
+
+.car {
+  float: left;
+  width: 33%;
+  background-color: #079163;
+
+}
