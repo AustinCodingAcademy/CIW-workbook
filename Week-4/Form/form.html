@@ -79,9 +79,10 @@
         	<option value="WY">Wyoming</option>
         </select><br><br>
         City: <br> <input type="text" name="city" placeholder="city" required><br><br>
-        Zip: <br><input type="text" name="zip" placeholder="ZipCode" required><br><br>
-        <input type="reset" name="reset" value="reset">&nbsp;&nbsp;
-        <input type="submit" name="submit" value="Submit"><br><br>
+        Zip: <br><input class="zip" type="text" name="zip" placeholder="ZipCode" pattern="[1-9]{5}" title="Five-digit Zip Code" required>
+         - <input class="zip" type="text" name="zip2" pattern="[1-9]{4}"><br><br>
+        <input class="button" type="reset" name="reset" value="reset">&nbsp;&nbsp;
+        <input class="button" type="submit" name="submit" value="Submit"><br><br>
       </form>
     </section>
 

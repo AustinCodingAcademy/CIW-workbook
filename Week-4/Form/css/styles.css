@@ -30,3 +30,11 @@ section {
   right: 0;
   background-color: #7E5305;
 }
+
+.button {
+  border: 2px solid #00027F;
+}
+
+.zip {
+  width: 60px;
+}
