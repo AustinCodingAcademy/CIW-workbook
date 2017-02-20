@@ -8,15 +8,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 body {
-    background-color: #E8950C;
-    padding-left: 12%;
-    padding-right: 12%;
     min-width: 850px;
 }
 
 .sitebody {
     background-color: #ffffff;
     position: relative;
+}
+
+.logo {
+  padding-left: 20px;
 }
 
 ul {
@@ -36,9 +37,7 @@ li {
     background-color: #E8950C;
 }
 
-
-/*
-header {
+/*.header {
     position: absolute;
     left: 0;
     width: 100%;
@@ -90,7 +89,7 @@ img.lroomimg {
 
 p.lroom {
     padding-top: 30px;
-    padding-right: 150px;
+    padding-right: 180px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -102,25 +101,25 @@ p.lroom {
 
 .titleofchairoffice {
     font-weight: bold;
-    font-size: 25px;
-    width: 25%;
+    font-size: 21px;
+    width: 22%;
 }
 
 .imgoffice {
     float: left;
-    margin: 30px;
+    margin: 20px;
     padding-left: 50px;
     font-weight: bold;
 }
 
 .imgoffice>img {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
 }
 
 .imgoffice>p {
     word-wrap: break-word;
-    width: 200px;
+    width: 150px;
     text-align: center;
 }
 
@@ -130,11 +129,12 @@ p.lroom {
     padding-left: 0px;
     position: relative;
     font-weight: bold;
+    padding-right: 0;
 }
 
 .imglibrary>img {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
 }
 
 .imglibrary>p {
@@ -149,13 +149,19 @@ p.lroom {
 }
 
 .libchairone {
-    margin: 0 250px 0 100px;
+    margin: 0 150px 0 100px;
 }
 
 .end {
     text-align: center;
     font-weight: bold;
     font-size: 25px;
+    padding: 0 20px 0 20px;
+    background-image: url("../images/pattern.jpg");
+}
+
+.end>img {
+  padding-left: 20px;
 }
 
 .buttn {
