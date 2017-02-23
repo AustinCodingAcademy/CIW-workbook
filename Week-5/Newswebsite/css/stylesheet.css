@@ -1,0 +1,45 @@
+html {
+  font-family: sans-serif;
+}
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.columns {
+  display: flex;
+}
+
+.column {
+  background: lightblue;
+  border: 5px solid grey;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.main-column {
+  flex: 1;
+}
+
+.article {
+  background: orange;
+  border: 5px solid seagreen;
+  color: white;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+}
+.imagemain{
+  height: 300px;
+  width: 400px;
+}
+.imagesmall{
+height: 150px;
+width: 200px;
+
+}
+p{
+  font-size: 14px;
+}
