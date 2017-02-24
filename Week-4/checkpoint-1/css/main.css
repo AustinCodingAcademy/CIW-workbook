@@ -1,0 +1,296 @@
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding: 0;
+	vertical-align: bottom;
+
+}
+
+li {
+	display: inline;
+	margin-right: 25px;
+
+}
+
+li a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#company {
+	width: 40%;
+	float: left;
+	margin-left: 160px;
+	margin-top: 23px;
+
+}
+
+#links {
+	width: 40%;
+	float: left;
+	display: inline-block;
+	text-align: right;
+	margin-top: 30px;
+}
+
+h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+  color: white;
+	font-weight: bold;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: white;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 12px;
+}
+
+#mainpage {
+  width: 100%;
+  height:500px;
+	background-image: url("../images/burner.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  text-align: center;
+  background-position: center;
+	margin-bottom: 50px;
+}
+
+.buttonmove1 {
+	float: left;
+	margin-left: 30%;
+}
+
+.buttonmove2 {
+	float: left;
+	margin-left: 5%;
+}
+
+.center {
+  padding-top: 325px;
+}
+
+#org {
+  color: black;
+}
+
+#about {
+	margin: 50px 0 50px 160px;
+}
+
+#services {
+	width: 100%;
+	height:300px;
+	background-size: 900px;
+	text-align: center;
+	background-position: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.medpic {
+	height: 250px;
+	width: 375px;
+}
+
+hr {
+	height: 2px;
+	color: blue;
+	background-color: blue;
+}
+
+#hrclear {
+	clear: left;
+}
+
+#hrclear2 {
+	clear: left;
+}
+
+#ckv {
+	width: 263px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+#ckvtext {
+	width: 64%;
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+#ckvtitle {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 35px;
+}
+
+#parckv {
+	font-size: 18px;
+	text-align: justify;
+}
+
+#subbut {
+	clear: left;
+	border: 2px solid red;
+	}
+
+#clients {
+	width: 100%;
+	height:500px;
+	background-image: url("../images/twilight.png");
+	background-repeat: no-repeat;
+	background-size: 1200px;
+	text-align: center;
+	background-position: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#clientstitle {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 35px;
+}
+
+#contactus {
+	width: 100%;
+	height:500px;
+	background-image: url("../images/contactus.jpg");
+	background-repeat: no-repeat;
+	background-size: 1200px;
+	text-align: center;
+	background-position: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#contactprint {
+height: 400px;
+
+}
+
+.contactdesc {
+	color: white;
+	font-size: 42px;
+	font-weight: bold;
+	width: 50%;
+	height: 225px;
+	padding-left: 40px;
+	padding-top: 150px;
+	margin-left: 10%;
+	}
+
+.vert {
+	padding-top: 35px;
+}
+
+#clientel1 {
+	width: 250px;
+	height: 375px;
+	margin-left: 185px;
+	margin-right: 50px;
+	margin-top: 30px;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#clientel2 {
+	width: 250px;
+	height: 375px;
+margin-top: 30px;
+margin-right: 50px;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#clientel3 {
+	width: 250px;
+	height: 375px;
+margin-top: 30px;
+margin-right: 50px;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#clientel4 {
+	width: 250px;
+	height: 375px;
+margin-top: 30px;
+margin-right: 50px;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.clientname {
+	color: white;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 10px 0 10px 0;
+}
+
+.clientdesc {
+	color: white;
+	text-align: justify;
+	font-size: 18px;
+	width: 200px;
+	padding-left: 25px;
+}
+
+#servicetext {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 35px;
+}
+
+#serv1 {
+	height: 375px;
+	width: 375px;
+	float: left;
+	margin: 75px 125px 10px 275px;
+}
+
+#serv2 {
+	height: 375px;
+	width: 375px;
+	float: left;
+	margin: 75px 100px 10px 125px;
+}
+
+.serv3 {
+	margin-top: 18px;
+}
+
+#date1 {
+	text-align: right;
+}
+
+#date2 {
+	text-align: right;
+}
