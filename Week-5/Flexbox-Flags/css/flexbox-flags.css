@@ -1,0 +1,97 @@
+.main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container1{
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+
+}
+
+.box1{
+  background-color: black;
+
+  height: 50px;
+  width: 200px;
+
+}
+.box2{
+  background-color: red;
+  height: 50px;
+  width: 200px;
+}
+.box3{
+  background-color: yellow;
+  height: 50px;
+  width: 200px;
+}
+.container2{
+display: flex;
+flex-direction: row;
+border: 1px solid black;
+border-color: black;
+}
+
+.box4 {
+  background-color: green;
+  height: 150px;
+  width: 66px;
+}
+.box5{
+  background-color: white;
+  height: 150px;
+  width: 66px;
+}
+.box6{
+  background-color: red;
+  height: 150px;
+  width: 66px;
+}
+
+.container3{
+display: flex;
+flex-direction: row;
+border: 1px solid black;
+border-color: black;
+}
+
+.box7 {
+  background-color: blue;
+  height: 150px;
+  width: 66px;
+}
+.box8{
+  background-color: white;
+  height: 150px;
+  width: 66px;
+}
+.box9{
+  background-color: red;
+  height: 150px;
+  width: 66px;
+}
+
+.container4{
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+border-color: black;
+}
+
+.box10 {
+  background-color: yellow;
+  height: 50px;
+  width: 200px;
+}
+.box11{
+  background-color: blue;
+  height: 50px;
+  width: 200px;
+}
+.box12{
+  background-color: red;
+  height: 50px;
+  width: 200px;
+}
