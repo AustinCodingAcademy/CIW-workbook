@@ -1,0 +1,84 @@
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flag {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vflag {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+  display: flex;
+
+}
+
+.colorg1 {
+background-color: black;
+flex: 1;
+}
+
+.colorg2 {
+background-color: red;
+flex: 1;
+}
+
+.colorg3 {
+background-color: yellow;
+
+flex: 1;
+}
+
+.colori1 {
+background-color: green;
+
+flex: 1;
+}
+
+.colori2 {
+background-color: white;
+flex: 1;
+}
+
+.colori3 {
+background-color: red;
+
+flex: 1;
+}
+
+.colorf1 {
+background-color: blue;
+
+flex: 1;
+}
+
+.colorf2 {
+background-color: white;
+flex: 1;
+}
+
+.colorf3 {
+background-color: red;
+flex:1;
+}
+
+.colorc1 {
+background-color: yellow;
+flex:1;
+}
+
+.colorc2 {
+background-color: blue;
+flex:1;
+}
+
+.colorc3 {
+background-color: red;
+flex:1;
+}
