@@ -9,6 +9,7 @@ div {
 	margin-top: -11px;
 	height: 60px;
 	background-color: #668284;
+<<<<<<< HEAD
 	margin-bottom: 5px;
 }
 div.container{
@@ -23,6 +24,11 @@ min-height: 800px;
 justify-content:center;
 width: 800px;
 }
+=======
+	margin-bottom: 10px;
+}
+
+>>>>>>> e82f626a868cfadf3cb54584016dbec65fed695b
 #name {
 	float:left;
 	margin-left: 5px;
@@ -32,6 +38,15 @@ width: 800px;
 	color: #ffffff;
 }
 
+<<<<<<< HEAD
+=======
+.center {
+  margin:auto;
+  width: 50%;
+  font-family: Garamond,serif;
+}
+
+>>>>>>> e82f626a868cfadf3cb54584016dbec65fed695b
 #email{
 	float:right;
 	margin-right: 5px;
@@ -66,19 +81,27 @@ a:hover {
 #contact {
   font-family: Verdana, sans-serif;
   font-weight: bold;
+<<<<<<< HEAD
 	}
 
 .content {
 	  font-family: Verdana, sans-serif;
 	  font-weight: bold;
+=======
+>>>>>>> e82f626a868cfadf3cb54584016dbec65fed695b
 }
 
 .left {
 	position: relative;;
 	float: left;
 	margin-top: 50px;
+<<<<<<< HEAD
 	width: 10%;
 	height: 2100px;
+=======
+	width: 15%;
+	height: 400px;
+>>>>>>> e82f626a868cfadf3cb54584016dbec65fed695b
 	background-color: #ff0000;
 	margin-bottom: 10px;
 }
