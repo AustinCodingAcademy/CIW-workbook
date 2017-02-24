@@ -1,0 +1,32 @@
+.container {
+}
+.bold {
+  font-weight: bold;
+}
+ .sec1 {display: flex;
+   flex-wrap: wrap;
+ }
+ .art1 { width: 600px;
+   flex: 1;
+
+
+
+ }
+ .art2 {
+   flex: 1;
+
+ }
+
+.sec2 { display: flex;}
+
+.art3 { flex: 1;
+
+}
+
+.art4 { flex: 1;
+
+}
+
+.art5 { flex: 2;
+
+}
