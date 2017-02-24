@@ -1,0 +1,45 @@
+.header{
+  float:absoult;
+}
+aside{
+  float: left;
+  display: block;
+  background-color: red;
+  width:15%;
+  height:100px;
+}
+.contaier{
+  padding:2px;
+}
+#fname{
+  margin:20%;
+}
+
+body, html {
+  height: 100%;
+  padding: 0;
+  background:
+}
+
+.aside{
+  top:120;
+  bottom: auto;
+  left: auto;
+  width: 15%;
+
+}
+.container
+.logo
+section{
+
+}
+header{
+  position: absolute;
+  left: 0;
+}
+.header{
+  float:left;
+}
+.lable{
+  clear:
+}
