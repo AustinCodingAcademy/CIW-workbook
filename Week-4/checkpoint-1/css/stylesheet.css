@@ -1,0 +1,22 @@
+img{
+  height: 50px;
+  width:50 px;
+  padding: 5px;
+}
+.img1{
+float:right;
+display: inline-block;
+}
+.img2{
+  float: right;
+  display:inline-block;
+}
+body{
+  background-color: white;
+  padding: 5%;
+}
+.text1{
+  padding-top: 110px;
+  font-style: italic;
+  font-weight: 300;
+}

@@ -1,0 +1,21 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20;
+}
+.black-strip{
+  flex: 1;
+  background-color: black;
+  flex-direction: column;
+}
+.red-strip{
+  flex: 1;
+  background-color: red;
+  flex-direction: column;
+}
+.yellow-strip{
+  flex: 1;
+  background-color: yellow;
+  flex-direction: column;
+}
