@@ -1,9 +1,7 @@
 
 
 
-.container {
 
-}
 .flag {
  display: flex;
  flex-direction: column;
@@ -15,7 +13,7 @@
 .Top {
   display: flex;
   flex-direction: row;
-  flex: .53;
+  height: 269.230769;
 }
  .TopLeft {
    flex: .85;
@@ -42,18 +40,20 @@
 
 .redStripe {
   background-color: red;
-  flex: 1;
+
+    min-height: 38.46153846153846;
 }
 
 .whiteStripe {
     background-color: #FFF;
-    flex: 1;
+    min-height: 38.46153846153846;
 }
 
 .star6 {
   flex: 1;
   display: flex;
   justify-content: space-between;
+
 
 }
 
