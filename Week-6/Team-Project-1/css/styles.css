@@ -63,23 +63,29 @@ footer {
   flex: 1;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 800px) {
+    section {
+      /*min-height: auto;*/
+      background-color: grey;
+    }
     .sm-story {
       flex: 1 40%;
       height: 100px;
       margin: 5px;
     }
     .bottom-story {
-      min-height: 100%;
       align-content: flex-start;
+      margin-bottom: 50px;
+
     }
     header {
         min-height: 70px;
     }
     nav {
-      height: 200px;
+      height: 500px;
     }
     footer {
+      /*display: none;*/
       height: 70px;
     }
     .top-story {
@@ -87,7 +93,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
 
   header {
       min-height: 170px;
