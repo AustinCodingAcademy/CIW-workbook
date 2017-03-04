@@ -117,7 +117,6 @@ section {
 .lg-image{
   flex: 3;
   display: flex;
-  border: 1px solid black;
 }
 
 .lg-image > img {
@@ -199,6 +198,87 @@ footer {
 p > span {
   align-self: center;
 }
+
+
+@media all  and (min-width: 1300px) {
+body {
+  display: flex;
+  justify-content: center;
+  background-color:#dda42a;
+}
+}
+
+@media all and (max-width: 670px) and (min-width: 531px) {
+  .lg-image{
+      display: none;
+    }
+    footer {
+      display: none;
+    }
+    header{
+      flex-wrap: wrap;
+      padding: 0;
+    }
+    .main-left {
+      flex-direction: row;
+    }
+    .contact {
+      margin: 0;
+      padding: 0;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+    .description {
+      align-self: center;
+    }
+    .description>ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact > img {
+      height: 40px;
+      width: 40px;
+    }
+  section {
+  background-color: #de741e;
+  }
+  .sm-image>img {
+    height: 260px;
+  }
+    .search {
+      padding: 5px;
+      margin: 0;
+      flex: 1.5;
+      width: 30%;
+    }
+    .search>input{
+      width: 10px;
+    }
+
+    .logo {
+      flex: 1 100%;
+      order: -1;
+      text-align: center;
+    }
+    .menu {
+      flex: 1;
+      width: 30%;
+    }
+    .logo>img {
+      height: 60px;
+    }
+
+    .menu> img {
+      height: 30px;
+    }
+    .menu>span {
+      font-size: 27px;
+    }
+
+}
+
 
 @media screen and (max-width: 530px){
   .lg-image{
