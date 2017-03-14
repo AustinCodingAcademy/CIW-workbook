@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid black;
+  align-items: center;
+}
+
+.top-logo {
+  padding-left: 50px;
+  flex: 1;
+}
+
+.top-logo > img {
+  height: 69.612px;
+  width: 290px;
+}
+
+nav {
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: baseline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-commenting {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  background-image: url("../img/wine-bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.description-logo {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+span {
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/wine-bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-content: center;
+}
+
+.second-top {
+  display: flex;
+}
+.description-top2nd {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 200px 0 200px;
+  background-color: #ffffff;
+}
+
+.description-top2nd > img {
+  width: 178px;
+  height: 80px;
+}
+
+.side-img {
+  flex: 1;
+}
+
+h5, p {
+  font-size: 16px;
+}
+
+h5 {
+  24px;
+}
+
+.second-bottom{
+  color: #ffffff;
+  padding: 400px 700px 400px 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+h3{
+  font-size: 32px;
+  color: #ffffff;
+}
