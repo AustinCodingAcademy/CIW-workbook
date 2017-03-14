@@ -1,0 +1,122 @@
+
+
+
+body {
+
+  width: 100%;
+  background-image: url("../images/airline.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+}
+
+.head {
+    width: 100%;
+    overflow: hidden;
+    background-color: #123754;
+    height: 12%;
+
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+}
+.links {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  height: 100%;
+  width: 100%;
+  vertical-align: center;
+  background-color: red;
+}
+.link {
+  float: left;
+}
+
+
+.box {
+  position: absolute;
+  top: 20%;
+  left:50px;
+  background-color: #123754;
+  width: 30%;
+  height: 40%;
+}
+.icons {
+  back-color: #018D80;
+  width: 100%
+}
+
+.icon {
+    width: 33.3333%;
+    background-color: #018D80;
+    float:left;
+    text-align: center;
+}
+.iconSelected {
+    width: 33.3333%;
+    background-color:#0063B7;
+    float:left;
+    text-align: center;
+}
+.controls {
+  position: absolute;;
+  top: 20%;
+  width: 100%;
+}
+
+.control {
+  width: 40%;
+  height: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+
+  float: left;
+
+}
+
+.controlText {
+  float: left;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+.controlInput {
+
+  float: left;
+}
+controlSelect {
+  float: left;
+  width: 100%;
+}
+
+.textbox {
+  width: 100%;
+  height: 100%;
+  background-color: #123754;
+  border: 2px solid white;
+}
+select {
+  width: 20%;
+  height: 100%;
+  background-color: #FFF;
+  border: 2px solid white;
+}
+
+.clear {
+  clear: left;
+}
+
+.button {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #0063B7;
+  width: 90%;
+  color: white;
+  height: 50px;
+}

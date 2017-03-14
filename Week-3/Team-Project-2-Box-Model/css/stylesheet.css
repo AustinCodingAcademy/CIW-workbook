@@ -1,0 +1,91 @@
+
+.container {
+  height: 250px;
+  width: 400px;
+
+}
+.box1 {
+  background-color: black;
+  border: 1px black solid;
+  width: 150px;
+  height: 50;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  font-weight: bold;
+  color: white;
+  float: left;
+}
+
+.box2 {
+  background-color: white;
+  border: 1px black solid;
+  width: 150px;
+  height: 50;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  font-weight: bold;
+  color: black;
+  margin-left: 40px;
+  float: left;
+
+}
+.box3 {
+  background-color: black;
+  border: 1px black solid;
+  width: 150px;
+  height: 50;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  font-weight: bold;
+  color: white;
+  margin-left: 70px;
+  float: left;
+  clear: left;
+  position: absolute;;
+  top: 50%;
+  left: 50%;
+}
+.box4 {
+  background-color: white;
+  border: 1px black solid;
+  width: 150px;
+  height: 50;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  font-weight: bold;
+  color: black;
+  margin-left: 100px;
+  float: left;
+}
+.box5 {
+  background-color: black;
+  border: 1px black solid;
+  width: 150px;
+  height: 50;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  font-weight: bold;
+  color: white;
+  margin-left: 130px;
+  float: left;
+  clear: left;
+
+}
+.box6 {
+  background-color: white;
+  border: 1px black solid;
+  width: 150px;
+  height: 50;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  font-weight: bold;
+  color: black;
+  margin-left: 160px;
+  float: left;
+}

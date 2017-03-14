@@ -1,0 +1,78 @@
+
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+}
+.horizontal-flag {
+ display: flex;
+ flex-direction: column;
+ flex: 1;
+ border: 1px solid #6E6E6E;
+ height: 150px;
+  max-width: 200px;
+
+}
+.vertical-flag {
+ display: flex;
+  border: 1px solid #6E6E6E;
+  flex: 1;
+   height: 150px;
+ max-width: 200px;
+x
+}
+
+.Germany1 {
+  flex: 1;
+  background-color: #000000;
+}
+
+.Germany2 {
+  flex: 1;
+  background-color: #FF0000;
+}
+.Germany3 {
+  flex: 1;
+  background-color: #FFFF07;
+}
+
+.Italy1 {
+  flex: 1;
+  background-color: #007400
+}
+.Italy2 {
+  flex: 1;
+  background-color: #FFF
+}
+.Italy3 {
+  flex: 1;
+  background-color: #FF0000;
+}
+.France1 {
+  flex: 1;
+  background-color: #000BFF;
+}
+.France2 {
+  flex: 1;
+  background-color: #FFF;
+
+}
+.France3 {
+  flex: 1;
+  background-color: #FF0000;
+
+}
+.Columbia1 {
+  flex: 1;
+  background-color: #FFFF07;
+
+}
+.Columbia2 {
+  flex: 1;
+  background-color: #000BFF;
+}.Columbia3 {
+  flex: 1;
+  background-color: #FF0000;
+}
