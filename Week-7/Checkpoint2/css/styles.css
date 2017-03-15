@@ -101,26 +101,23 @@ span {
   display: flex;
 }
 .description-top2nd {
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: #ffffff;
 }
-.test {
-  width: 80%;
-}
+
 .description-top2nd > img {
   width: 178px;
   height: 80px;
 }
 
 .side-img {
-  flex: 1;
+  width: 100%;
 }
 
 h5, p {
