@@ -1,0 +1,19 @@
+nav>a {
+  display: none;
+}
+
+.menu-bars {
+  display: unset;
+}
+
+.second-top {
+  flex-direction: column;
+}
+
+.side-img {
+  order: -1;
+}
+
+.footer-top {
+  flex-direction: column;
+}
