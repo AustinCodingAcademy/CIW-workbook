@@ -3,12 +3,28 @@ nav>a {
 }
 .test {
   position: absolute;
-  width: 350px;
+  width: 200px;
   color: #ffffff;
-  background-color: grey;
+  background-color: #292929;
   z-index: -5;
   padding: 20px;
   display: none;
+}
+
+.dropdown{
+  list-style: none;
+  display: none;
+  position: absolute;
+  color: #ffffff;
+  background-color: #292929;
+  width: 100px;
+  padding: 20px;
+  z-index: -3;
+  line-height: 35px;
+}
+
+.dropdown>li{
+  border-bottom: 1px solid #ffffff;
 }
 
 body {
@@ -63,8 +79,8 @@ a {
   position: fixed;
   bottom: 50px;
   right: 50px;
-  color: #ffffff;
-  background-color: #000000;
+  color: #82192c;
+  /*background-color: #000000;*/
   border-radius: 50%;
   padding: 15px;
 }
