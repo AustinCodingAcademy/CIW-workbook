@@ -1,0 +1,15 @@
+table {
+  margin-left: 20px;
+}
+
+table, tr, td {
+  border: 1px solid black;
+}
+
+.inputs {
+  display: flex;
+}
+
+.inputlabels, .inputboxes {
+  padding-left: 20px;
+}

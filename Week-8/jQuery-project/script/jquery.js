@@ -70,6 +70,4 @@ $(document).ready(function(){
           //  $($search).mouseleave(function(){
           //      $($search).hide();
           //  });
-
-    $('.fa-commenting').draggable();
 });
