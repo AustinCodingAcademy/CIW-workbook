@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>JQuery</title>
     <link rel="stylesheet" href="../css/styles.css">
@@ -12,14 +13,15 @@
     <!-- JQuery UI -->
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="../script/jquery.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <div class="top-logo">
-        <img src="../img/top-logo.png" alt="Foundry">
-      </div>
-      <nav>
-        <a href="#">HOME &#8744;
+        <div class="top-logo">
+            <img src="../img/top-logo.png" alt="Foundry">
+        </div>
+        <nav>
+            <a href="#">HOME &#8744;
           <ul class="dropdown" id="ul1">
             <li>Menu Item</li>
             <li>Menu Item</li>
@@ -29,7 +31,7 @@
             <li>Menu Item</li>
           </ul>
         </a>
-        <a href="#">PAGES &#8744;
+            <a href="#">PAGES &#8744;
           <ul class="dropdown" id="ul2">
             <li>Page Item</li>
             <li>Page Item</li>
@@ -39,7 +41,7 @@
             <li>Page Item</li>
           </ul>
         </a>
-        <a href="#">ELEMENTS &#8744;
+            <a href="#">ELEMENTS &#8744;
           <ul class="dropdown" id="ul3">
             <li>Element Item</li>
             <li>Element Item</li>
@@ -49,7 +51,7 @@
             <li>Element Item</li>
           </ul>
         </a>
-        <a href="#">PORTFOLIO &#8744;
+            <a href="#">PORTFOLIO &#8744;
           <ul class="dropdown" id="ul4">
             <li>Portfolio Item</li>
             <li>Portfolio Item</li>
@@ -59,7 +61,7 @@
             <li>Portfolio Item</li>
           </ul>
         </a>
-        <a href="#">SHOP &#8744;
+            <a href="#">SHOP &#8744;
           <ul class="dropdown" id="ul5">
             <li>Shop Item</li>
             <li>Shop Item</li>
@@ -69,7 +71,7 @@
             <li>Shop Item</li>
           </ul>
         </a>
-        <a href="#">BLOG &#8744;
+            <a href="#">BLOG &#8744;
           <ul class="dropdown" id="ul6">
             <li>Blog Item</li>
             <li>Blog Item</li>
@@ -79,12 +81,17 @@
             <li>Blog Item</li>
           </ul>
         </a>
-        <a href="#"><i class="fa fa-search fa-2x" aria-hidden="true"></i>
+            <a href="#"><i class="fa fa-search fa-2x" aria-hidden="true"></i>
           <input class="dropdown" id="input" type="search" name="search" placeholder="search">
         </a>
-        <a href="#"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i></a>
-        <a class="nav-item" href="#">ENG &#8744;
-          <ul class="dropdown" id="ul7">
+            <a href="#"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true">
+          <table id="shoptable" class="dropdown">
+            <tr>
+            </tr>
+          </table>
+        </i></a>
+            <a class="nav-item" href="#">ENG &#8744;
+          <ul class="dropdown" id="ul9">
             <li>Spanish</li>
             <li>Frech</li>
             <li>Italian</li>
@@ -93,98 +100,113 @@
             <li>Hindi</li>
           </ul>
         </a>
-      </nav>
-      <div class="menu-bars"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></div>
+        </nav>
+        <div class="menu-bars"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></div>
     </header>
-    <i class="fa fa-commenting fa-2x" aria-hidden="true"></i>
+    <div class="comments">
+      <strong>Leave us your comments!</strong>
+      <div id="postcomments"></div>
+      <div id="textbox">
+        <input type="text" name="comm" placeholder="Enter a comment" style="margin-top: 10px;">
+      </div>
+      <div class="commbuttons">
+        <button id="exit" type="button" name="exit">Exit</button>
+        <button id="post" type="button" name="post">Post</button>
+      </div>
+
+    </div>
+    <i id="commenticon" class="fa fa-commenting fa-2x" aria-hidden="true"></i>
     <section class="main-container">
-      <article class="first">
+        <article class="first">
             <img src="../img/f-logo.png" alt="Big F">
-              <h5 class="description-logo"><em>“Without doubt, one of the most consistently high-quality wineries in the Barossa region”</em></h5>
+            <h5 class="description-logo"><em>“Without doubt, one of the most consistently high-quality wineries
+                in the Barossa region”</em></h5>
             <span>David Halladay - Respected Wino</span>
-      </article>
-      <article class="second">
-        <div class="second-top">
-            <div class="description-top2nd">
-              <h5>• EST. 1968 •</h5>
-              <h4>Combining over 100 years of hard work and shared family knowledge</h4>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-              <img src="../img/signature.png" alt="signature">
+        </article>
+        <article class="second">
+            <div class="second-top">
+                <div class="description-top2nd">
+                    <h5>• EST. 1968 •</h5>
+                    <h4>Combining over 100 years of hard work and shared family knowledge</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <img src="../img/signature.png" alt="signature">
+                </div>
+                <img class="side-img" src="../img/powerwash.jpg" alt="powerwash">
             </div>
-              <img class="side-img" src="../img/powerwash.jpg" alt="powerwash">
-        </div>
-        <div class="second-bottom">
-            <h3><em>“We've been producing fine wine for over 65 years, I think we know what we're talking about”</em></h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        </div>
-      </article>
-      <article class="third">
-        <div class="third-top">
-          <div class="wines-bottle">
-            <img src="../img/wine1.jpg" alt="wine">
-            <hr>
-            <h4><em>Foundry Shiraz</em></h4>
-            <h5><em>“Aged five years in solid, French Oak barrels sports notes of pepper and blackberry”</em></h5>
-            <a href="#">VISIT SHOP</a>
-          </div>
-          <div class="wines-bottle">
-            <img src="../img/wine2.jpg" alt="wine">
-            <hr>
-            <h4><em>Foundry Chardonnay</em></h4>
-            <h5><em>“A rich fruit palet with subtle Oak influence and a lingering dry, fresh finish”</em></h5>
-            <a href="#">VISIT SHOP</a>
-          </div>
-          <div class="wines-bottle">
-            <img src="../img/wine3.jpg" alt="wine">
-            <hr>
-            <h4><em>Foundry Cabernet</em></h4>
-            <h5><em>“Generous sweet blackcurrant and mulberry character with soft, velvety tannins”</em></h5>
-            <a href="#">VISIT SHOP</a>
-          </div>
-        </div>
-        <div class="third-bottom">
-          <h3 class="third-bottomH3"><em>Awards &amp; Recognition</em></h3>
-          <div class="main-medals">
-          <div class="medal">
-            <img src="../img/medal1.png" alt="medal">
-            <p>Best Mid-Tier Value Wine <br>Barossa Shiraz, 2009</p>
-          </div>
-          <div class="medal">
-            <img src="../img/medal2.png" alt="medal">
-            <p>Winemaker of the Year <br>Foundry Vineyard, 20014</p>
-          </div>
-          <div class="medal">
-            <img src="../img/medal3.png" alt="medal">
-            <p>Best Overall Value <br>Barossa Cabernet, 2010</p>
-          </div>
-        </div>
-        </div>
-      </article>
-      <footer class="footer">
-        <div class="footer-top">
-            <img src="../img/pour.jpg" alt="pouring wine">
-          <div class="side-description-footer">
-            <h4><em>Join us for tastings at the Cellar Door</em></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            <hr>
-            <p>1240 Kilgour Road<br>Rowland Flat<br>South Australia 5352</p>
-            <p footer-top-p>P: (05) 3928 9283<br>E: enquiries@foundry.net</p>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <h3><em>Sign up to our monthly newsletter</em></h3>
-          <p>Get special offers and news on newest cellar releases.</p>
-          <div class="footer-inputs">
-            <input type="email" name="email" placeholder="EMAIL ADDRESS">
-            <button type="button" name="button">SIGN UP NOW</button>
-          </div>
-          <div class="social-icons">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-vimeo" aria-hidden="true"></i>
-          </div>
-        </div>
-      </footer>
+            <div class="second-bottom">
+                <h3><em>“We've been producing fine wine for over 65 years, I think we know what we're talking
+              about”</em></h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+        </article>
+        <article class="third">
+            <div class="third-top">
+                <div class="wines-bottle">
+                    <img src="../img/wine1.jpg" alt="wine">
+                    <hr>
+                    <h4><em>Foundry Shiraz</em></h4>
+                    <h5><em>“Aged five years in solid, French Oak barrels sports notes of pepper and blackberry”</em></h5>
+                    <a href="#" id="shiraz">PURCHASE</a>
+                </div>
+                <div class="wines-bottle">
+                    <img src="../img/wine2.jpg" alt="wine">
+                    <hr>
+                    <h4><em>Foundry Chardonnay</em></h4>
+                    <h5><em>“A rich fruit palet with subtle Oak influence and a lingering dry, fresh finish”</em></h5>
+                    <a href="#" id="chard">PURCHASE</a>
+                </div>
+                <div class="wines-bottle">
+                    <img src="../img/wine3.jpg" alt="wine">
+                    <hr>
+                    <h4><em>Foundry Cabernet</em></h4>
+                    <h5><em>“Generous sweet blackcurrant and mulberry character with soft, velvety tannins”</em></h5>
+                    <a href="#" id="cab">PURCHASE</a>
+                </div>
+            </div>
+            <div class="third-bottom">
+                <h3 class="third-bottomH3"><em>Awards &amp; Recognition</em></h3>
+                <div class="main-medals">
+                    <div class="medal">
+                        <img src="../img/medal1.png" alt="medal">
+                        <p>Best Mid-Tier Value Wine <br>Barossa Shiraz, 2009</p>
+                    </div>
+                    <div class="medal">
+                        <img src="../img/medal2.png" alt="medal">
+                        <p>Winemaker of the Year <br>Foundry Vineyard, 20014</p>
+                    </div>
+                    <div class="medal">
+                        <img src="../img/medal3.png" alt="medal">
+                        <p>Best Overall Value <br>Barossa Cabernet, 2010</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer class="footer">
+            <div class="footer-top">
+                <img src="../img/pour.jpg" alt="pouring wine">
+                <div class="side-description-footer">
+                    <h4><em>Join us for tastings at the Cellar Door</em></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <hr>
+                    <p>1240 Kilgour Road<br>Rowland Flat<br>South Australia 5352</p>
+                    <p footer-top-p>P: (05) 3928 9283<br>E: enquiries@foundry.net</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <h3><em>Sign up to our monthly newsletter</em></h3>
+                <p>Get special offers and news on newest cellar releases.</p>
+                <div class="footer-inputs">
+                    <input type="email" name="email" placeholder="EMAIL ADDRESS">
+                    <button type="button" name="button">SIGN UP NOW</button>
+                </div>
+                <div class="social-icons">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-vimeo" aria-hidden="true"></i>
+                </div>
+            </div>
+        </footer>
     </section>
-  </body>
+</body>
+
 </html>

@@ -61,7 +61,7 @@ var agreecheck = function(){
   if($agree.prop("checked") === true){
     $("button").removeAttr('disabled');
   }else{
-    $("button").attr('disabled');
+    $("button").attr('disabled', 'true');
   }
 };
 
@@ -73,5 +73,6 @@ var insert = function(){
   var $row = "<tr><td>"+$fname+"</td><td>"+$lname+"</td><td>"+$email+"</td><td>"+$tel+"</td></tr>";
   if(($fname.length > 0 && $lname.length > 0) && ($email.length > 0 && $tel.length > 0)){
     $("table").append($row);
+    $("#inputboxes")[0].reset();
   };
 };

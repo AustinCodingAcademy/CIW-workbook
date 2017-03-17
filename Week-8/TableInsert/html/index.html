@@ -12,6 +12,12 @@
   </head>
   <body>
     <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+      </tr>
     </table>
     <div class="inputs">
     <div class="inputlabels">
@@ -22,7 +28,7 @@
       Phone Number: <br><br><br>
       <input type="checkbox" name="agree" value="Agree">I Agree
     </div>
-    <div class="inputboxes">
+    <form id="inputboxes">
       <p id="pfirst"></p>
       <input type="text" name="fname" placeholder="First Name"><br><br>
       <p id="plast"></p>
@@ -32,7 +38,7 @@
       <p id="pphone"></p>
       <input type="tel" name="pnumber" placeholder="xxx-xxx-xxxx"><br><br><br>
       <button class="insert" type="button" name="submit" disabled>Submit</button>
-    </div>
+    </form>
   </div>
   </body>
 </html>
