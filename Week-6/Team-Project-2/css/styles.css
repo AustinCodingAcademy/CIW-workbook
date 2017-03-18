@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  width: 100%;
+  flex-direction:column;
+}
+.header{
+  flex: 1;
+  background-color: goldenrod;
+  width: 100%;
+  border: 5px solid blue;
+  align-items: center;
+  overflow: hidden;
+}
+.logo{
+  flex: 1;
+  width: 30%;
+  background-color: goldenrod;
+  margin: 50%
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /*justify-content: flex-start;*/
+  border: 5px solid green;
+  flex-wrap: wrap;
+}
+.menu{
+  display: flex;
+  width: 100%;
+}
+img {
+    /*margin: auto;
+    width: 100%;*/
+    max-width: 500px;
+    max-height:100%
+}
+.mytext{
+     font-size:18pt;
+     /*max-width:20px;
+     max-height:100px;*/
+}
+
+
+  /*flex: 1 auto;*/
+  /*display:flex;
+	justify-content:center;
+	align-items:center;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;*/
+
+.dog-paw{
+  width: 50%;
+  align-items: flex-start;
+  text-align: left;
+  border: 1px solid #909;
+  background-color: goldenrod;
+  color: white;
+}
+
+.serach-box{
+  /*display: flex;*/
+  flex: 1 auto;
+  width: 40%;
+  text-align: right;
+  border: 3px solid #900;
+  /*background-color: goldenrod;*/
+  background-color: #885D02;
+  /*image-orientation: 2;*/
+
+}
+.mag-glass{
+  flex: 1 auto;
+  background-color: #6B4B08;
+  border: 3px solid hotpink;
+  min-width: 10%;
+}
+
+/*.magnified-glass{
+  background-color: #6B4B08;
+}*/
+
+.main-box{
+  display: flex;
+  border: 2px solid #0A4C00;
+  /*flex-direction: column;*/
+}
+.left-image-box{
+  flex: 1 auto;
+  width: 100%;
+}
+.left-img{
+  width: 100%;
+}
+.right-image-box{
+  display: flex;
+  flex: 1;
+}
+.right-image{
+  flex: 1;
+  flex-wrap: wrap;
+}
+/*#search{
+  display: none;
+}*/
+.dogs-info-box{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  background-color: #DE741E;
+  color: white;
+}
+#dogs-id{
+font-weight: bold;
+font-family: arial;
+align-self: center;
+flex-wrap: wrap;
+margin: 1px;
+}
+/*#dogs-bread{
+  font-family: arial;
+  align-self: center;
+  flex-wrap: wrap;
+  margin: 1px;
+}
+#dogs-vital{
+  font-family: arial;
+  align-self: center;
+  flex-wrap: wrap;
+  margin: 1px;
+}*/
+.contact-us{
+  display: flex;
+  /*flex: 1 auto;*/
+  align-items: center;
+  margin: 1px;
+}
+
+@media all and (max-width:320px) {
+  .header{
+    /*position: absolute;
+    float: left;
+    clear: left;*/
+    background-color: #909;
+    border: 1px solid #70687A;
+
+    /*margin-bottom: 1.2rem;
+    margin-right: 1rem;*/
+    }
+  .menu{
+    display: flex;
+    width: 100%;
+}
+@media all and (max-width:700px) {
+  .header
+  /*position: absolute;
+  float: left;
+  clear: left;*/
+  background-color: #909;
+  border: 1px solid #70687A;
+  /*margin-bottom: 1.2rem;
+  margin-right: 1rem;*/
+}
+@media all and (max-width:1400px) {
+  .header
+    /*position: absolute;
+    float: left;
+    clear: left;*/
+    background-color: #909;
+    border: 1px solid #70687A;
+    /*margin-bottom: 1.2rem;
+    margin-right: 1rem;*/
+}

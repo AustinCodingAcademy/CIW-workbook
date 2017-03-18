@@ -1,0 +1,113 @@
+@media screen and (max-width: 600px){
+.container{
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+  }
+}
+.container{
+  display: flex;
+  /*max-width: 1400px;*/
+  /*box-sizing: border-box;*/
+  border: 5px #ccc solid;
+  /*flex-direction: column;*/
+
+  padding: 20px;
+  flex-flow: row wrap;
+  /*min-height: 100vh;*/
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
+  justify-content: space-around;
+  align-content: space-between;
+  /*min-height: 100vh;*/
+}
+/*
+.upper-row{
+  display: flex;
+  flex: 1;
+  border: 5px #16a085 solid;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+  /*box-sizing: border-box;
+  margin-bottom: 20px;
+}*/
+
+.blue-field{
+  /*display: flex;*/
+  flex: 1;
+  /*max-height: 195px;*/
+  border: 5px #ccc solid;
+  /*background-image: image(<i class="fa fa-star" aria-hidden="true"></i>);
+  background-repeat: repeat;*/
+  /*max-width: 1400px;*/
+  /*height: 100px;*/
+  /*align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: darkblue;*/
+}
+.sm-strip-field{
+  display: flex;
+  /*max-width: 400px;*/
+  flex: 2;
+  flex-direction: column;
+  border: 5px goldenrod solid;
+  /*flex-basis: 70px;*/
+}
+/*
+.star-6{
+  flex: 1;
+  order: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.star-5{
+  flex: 1;
+  order: 2;
+  padding: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}*/
+.sm-strip-wht{
+  flex: 1;
+  max-height: 30px;
+  /*max-width: 400px;*/
+  /*order: 2;*/
+  background-color: green;
+  flex-direction: column;
+}
+.sm-strip-red{
+  flex: 1;
+  max-height: 30px;
+  /*max-width: 400px;*/
+  /*order: 1;*/
+  background-color: red;
+  flex-direction: column;
+}
+.lower-row{
+  display: flex;
+  border: 5px #ccc solid;
+  /*flex: 1;*/
+  flex-direction: column;
+  flex-basis: 0px;
+  /*flex-wrap: wrap;*/
+  padding: 0px;
+}
+.lg-strip-wht{
+  /*display: flex;*/
+  /*max-width: 400px;*/
+  flex: 1;
+  flex-direction: column;
+  /*order: 1;*/
+  background-color: white;
+  /*flex-direction: column;*/
+}
+.lg-strip-red{
+  /*display: flex;*/
+  /*max-width: 400px;*/
+  flex: 1;
+  flex-direction: column;
+  background-color: red;
+}

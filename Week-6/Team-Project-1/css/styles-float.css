@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 1px soild black;
+  border: 5px solid #000;
+  margin: 10px;
+  padding: 10px;
+  width: 90%;
+  overflow: hidden;
+}
+
+/*.section {
+    background-color: #C9D3D1;
+    border: 1px solid #B2BAB8;
+    padding: 1.5rem;
+    text-align: left;
+}*/
+
+.header {
+    width: 100%;
+    margin-bottom: 1.2rem;
+    margin: 10px;
+    padding: 10px;
+    min-height: 5rem;
+    /*padding: .75rem 1.4rem;*/
+    text-align: left;
+    background-color: #99BEC3;
+    border: 1px solid #88A9AD;
+    /*border: 5px solid red;
+    background-color: goldenrod;*/
+    clear: left;
+    overflow: hidden;
+}
+
+.nav {
+    float: left;
+    background-color: #8B7F97;
+    border: 1px solid #70687A;
+    width: 10%;
+    height: 350px;
+    margin: 10px;
+    margin-bottom: 1.2rem;
+    margin-right: 1rem;
+    /*margin-right: 1.2rem;
+    min-height: 20rem;
+    padding: 1rem;
+    text-align: center;*/
+}
+.article-container {
+    background-color: #C9D3D1;
+    border: 5px solid #909;
+    margin: 10px;
+    padding: 10px;
+    width: 90%
+    min-height:300px;
+    overflow: hidden;
+    /*clear: left:*/
+}
+/*.article::after {
+   clear: both;
+   display: block;
+    float: right;
+    margin-left: 21.34%;
+    border: 5px solid red;
+}*/
+
+.featured-story {
+    background-color: gray;
+    border: 5px solid red;
+    width: 85%;
+    /*min-height: 7rem;*/
+    height: 70px;
+    float: left;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.story-row-top1 {
+    border: 5px solid darkblue;
+    float: left;
+    clear: left;
+    width: 20%;
+    min-height: 200px;
+    margin-bottom: 1.2rem;
+    margin-right: 1.2rem;
+
+}
+.story-row-top2 {
+    border: 5px solid darkblue;
+    float: left;
+    width: 20%;
+    min-height: 200px;
+    margin-bottom: 1.2rem;
+    margin-right: 1.2rem;
+    /*clear: left;*/
+}
+.story-row-top3 {
+    border: 5px solid darkblue;
+    float: left;
+    width: 20%;
+    min-height: 200px;
+    margin-bottom: 1.2rem;
+    margin-right: 1.2rem;
+    /*clear: left;*/
+}
+.story-row-top4 {
+    border: 5px solid darkblue;
+    float: left;
+    width: 20%;
+    min-height: 200px;
+    margin-bottom: 1.2rem;
+    /*clear: left;*/
+}
+.story-row-bottom1{
+  border: 5px solid darkred;
+  float: left;
+  clear: left;
+  width: 20%;
+  min-height: 200px;
+  margin-right: 1.2rem;
+}
+.story-row-bottom2{
+  border: 5px solid darkred;
+  float: left;
+  width: 20%;
+  min-height: 200px;
+  margin-right: 1.2rem;
+  /*clear: left;*/
+}
+.story-row-bottom3{
+  border: 5px solid darkred;
+  float: left;
+  width: 20%;
+  min-height: 200px;
+  margin-right: 1.2rem;
+  /*clear: left;*/
+}
+.story-row-bottom4{
+  border: 5px solid darkred;
+  float: left;
+  width: 20%;
+  min-height: 200px;
+  /*clear: left;*/
+}
+.footer {
+    background-color: #99BEC3;
+    border: 1px solid #88A9AD;
+    /*min-height: 7rem;*/
+    /*padding: 75rem 1.4rem;*/
+    clear: left;
+    text-align: center;
+}
+
+@media all and (max-width:320px) {
+    .nav {
+      position: absolute;
+      float: left;
+      clear: left;
+      background-color: #909;
+      border: 1px solid #70687A;
+      /*margin-bottom: 1.2rem;
+      margin-right: 1rem;*/
+    }
+    .story-row-top1{
+      float: left;
+      clear: left;
+      width: 20%;
+      min-height: 200px;
+      margin-bottom: 1.2rem;
+      margin-right: 1.2rem;
+    }
+    .story-row-top2{
+      float: left;
+      clear: left;
+      width: 20%;
+      min-height: 200px;
+      margin-bottom: 1.2rem;
+      margin-right: 1.2rem;
+    }
+    .story-row-top3{
+      float: left;
+      clear: left;
+      width: 20%;
+      min-height: 200px;
+      margin-bottom: 1.2rem;
+      margin-right: 1.2rem;
+    }
+    .story-row-top4{
+      float: left;
+      clear: left;
+      width: 20%;
+      min-height: 200px;
+      margin-bottom: 1.2rem;
+      margin-right: 1.2rem;
+    }
+    .story-row-bottom1{
+      float: left;
+      clear: left;
+      width: 20%;
+      min-height: 200px;
+      margin-right: 1.2rem;
+    }
+    .story-row-bottom2{
+      float: left;
+      clear: left;
+      width: 20%;
+      min-height: 200px;
+      margin-right: 1.2rem;
+    }
+    .story-row-bottom3{
+      float: left;
+      clear: left;
+      width: 20%;
+      min-height: 200px;
+      margin-right: 1.2rem;
+    }
+    .story-row-bottom4{
+      float: left;
+      clear: left;
+      width: 20%;
+      min-height: 200px;
+      margin-right: 1.2rem;
+    }
+}
+@media all and (max-width:700px) {
+    .nav {
+      position: absolute;
+      border: 1px solid #70687A;
+      background-color: blue;
+    }
+}
+@media all and (max-width:1000px) {
+    .nav {
+      background-color: goldenrod;
+    }
+}
+/*@media all and (max-width:1400px) {
+    .nav {
+      background-color: green;
+  }
+}*/

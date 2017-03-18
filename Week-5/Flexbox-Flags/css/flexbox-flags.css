@@ -4,7 +4,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 20px;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px auto 0 auto
 }
 
 .black-strip{
@@ -35,6 +38,7 @@ flex: 1;
 }
 .Germny-flag{
   max-width: 200px;
+  /*width: 200px;*/
   height: 150px;
   display: flex;
   flex: 1;
@@ -43,6 +47,7 @@ flex: 1;
 }
 .Italy-flag{
   max-width: 200px;
+  /*width: 200px;*/
   height: 150px;
   display: flex;
   flex: 1;
@@ -51,6 +56,7 @@ flex: 1;
 }
 .France-flag{
   max-width: 200px;
+  /*width: 200px;*/
   height: 150px;
   display: flex;
   flex: 1;
@@ -59,6 +65,7 @@ flex: 1;
 }
 .Columbia-flag{
   max-width: 200px;
+  /*width: 200px;*/
   height: 150px;
   display: flex;
   flex: 1;

@@ -1,0 +1,172 @@
+
+.main-container{
+  /*position:relative;*/
+
+  width: 100%;
+  height: 100vh;
+}
+.topimage-box{
+  display: flex;
+  clear: left;
+}
+.topimgA1{
+  flex: 1;
+  background: url("../img/wine-bg.jpg");
+  height: 100vh;
+  width:100%;
+
+  z-index: 20;
+  /*position: absolute;*/
+  /*align-items: center;*/
+  /*align-content: center;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  flex-wrap: wrap;
+  clear: left;
+  /*margin: 50%;*/
+}
+.big-letter-f{
+  vertical-align: middle;
+  border 2px soild red;
+  max-width: 100%;
+  margin-bottom: 48px;
+
+}
+.text-center {
+  /*text-align: center;*/
+}
+.uppercase{
+  text-align: center;
+}
+
+.image-square {
+  display: flex;
+  min-height: 640px;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  /*border 2px soild red;*/
+}
+.farm-worker-Box{
+  display: flex;
+  flex-wrap: wrap;
+
+  /*clear: left;*/
+}
+.farm-worker-img{
+  flex: 1;
+  background: url("../img/wine13.jpg");
+  height: 100vh;
+  width:100%;
+}
+.product{
+  flex: 1;
+  height: 100vh;
+  width:100%;
+  z-index: 30;
+  /*flex-wrap: wrap;*/
+}
+/*.Bottles3{
+  display: flex;
+  /*overflow: hidden;*/
+  /*text-align: center;*/
+}*/
+.image-bottles-Box{
+  /*display: flex;*/
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.winebottle{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+}
+
+.image-Bottle {
+height: 450px;
+width: 200px;
+}
+
+.text-lef{
+  flex: 1;
+}
+.align-container{
+  display: flex;
+}
+.background-image{
+  flex: 1;
+  background: url("../img/wine12.jpg");
+  height: 100vh;
+  width:100%;
+  z-index: 40;
+}
+.awards-3{
+  flex: 1;
+  /*z-index: 40;*/
+}
+.text-center{
+  flex: 1;
+  height: 100vh;
+  align-items: center;
+}
+.right-image{
+  flex: 1;
+  flex-wrap: wrap;
+}
+.award-img{
+  display: flex;
+  justify-content: space-around;
+  height: 450px;
+}
+.discrption{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.image-sig {
+    max-height: 80px;
+}
+h5.uppercase {
+    letter-spacing: 2px;
+    margin-right: -2px;
+}
+.uppercase {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.align-container{
+  clear: left;
+}
+.red-wine{
+
+  flex: 1;
+}
+.wine-testing{
+  display: flex;
+  flex: 1;
+}
+.bg-dark
+{
+  display: flex;
+  flex: 1;
+}
+/*.imgA1 {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.imgF {
+  position:absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 3;
+  background-color: #909;
+}*/
