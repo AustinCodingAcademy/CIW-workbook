@@ -2,9 +2,12 @@ nav>a {
     position: relative;
 }
 
+.fback {
+  display: none;
+}
+
 .dropdown {
     list-style: none;
-    display: none;
     position: absolute;
     color: #ffffff;
     background-color: #292929;

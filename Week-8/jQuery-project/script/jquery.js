@@ -1,12 +1,14 @@
 $(document).ready(function() {
     var $navitem1 = $('nav>a:nth-child(1)');
     var $ul1 = $('#ul1');
-    $($navitem1).mouseover(function() {
-    //$($navitem1).mouseover(function() {
-        $($ul1).show();
+    $($navitem1).hover(function() {
+      $($ul1).removeClass('fback');
+      //$($ul1).show();
     });
+    //$('ul').mouseout(function() {
     $(document).click(function() {
-        $($ul1).hide();
+      $($ul1).addClass('fback');
+        //$($ul1).hide();
     });
 
     var $navitem2 = $('nav>a:nth-child(2)');
@@ -96,36 +98,44 @@ $(document).ready(function() {
         $('#shoptable').append($purchasecab);
     });
 
-    $('button').click(function(){
-      var $email = $('input[name="email"]').val();
-      var $mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-      if($email.length > 0 && $mailformat.test($email)){
-      alert("Welcome to our site "+ $email);
-      $('input[name="email"]').val("");
-    }
+    $('#signingup').click(function() {
+        var $email = $('input[name="email"]').val();
+        var $mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        $('div').remove(".emailerror");
+        if ($email.length > 0 && $mailformat.test($email)) {
+            alert("Welcome to our site " + $email);
+            $('input[name="email"]').val("");
+        } else {
+            $('#emailerror').append('<div class="emailerror" style="color:red">Valid email is required!</div>');
+            $('input[name="email"]').val("");
+        }
     });
 
-    $('#commenticon').click(function(){
-      $('.comments').show();
+    $('#commenticon').click(function() {
+        $('.comments').show();
     });
 
-    $('#exit').click(function(){
-      $('.comments').hide();
+    $('#exit').click(function() {
+        $('.comments').hide();
     });
 
-    $('#post').click(function(){
-      var $usercomm = $('input[name="comm"]').val();
-      var $actualcomm = "<b style='color: #82192c'>"+ $usercomm + "</b><br/>";
-      if($usercomm.length > 0){
-        $('#postcomments').append($actualcomm);
-        $('input[name="comm"]').val("");
-    }
+    $('#post').click(function() {
+        var $usercomm = $('#comm').val();
+        var $actualcomm = "<b id='actualcomm' style='color: #82192c'>" + $usercomm + "<br/></b>";
+        if ($usercomm.length > 0) {
+            $('#postcomments').append($actualcomm);
+            $('#comm').val("");
+        }
     });
 
-    $('input[name="comm"]').keypress(function(e){
-      var key = e.which;
-      if(key === 13){
-        $('#post').click();
-      };
+    $('#clear').click(function(){
+      $('b').remove("#actualcomm");
+    });
+
+    $('#comm').keypress(function(e) {
+        var key = e.which;
+        if (key === 13) {
+            $('#post').click();
+        };
     });
 });
