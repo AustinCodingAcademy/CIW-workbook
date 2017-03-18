@@ -41,6 +41,7 @@ var emailval = function(){
     return true;
   }else{
     $('#pemail').append('<p id="emailerror" style="color:red">Correct email is required!</p>');
+    $email.val("");
   }
 };
 
@@ -53,6 +54,7 @@ var pnumberval = function(){
     return true;
   }else {
     $('#pphone').append('<p id="phoneerror" style="color:red">Correct phone number is required!</p>');
+    $pnumber.val("");
   }
 };
 

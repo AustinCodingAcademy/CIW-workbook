@@ -101,6 +101,7 @@ $(document).ready(function() {
       var $mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
       if($email.length > 0 && $mailformat.test($email)){
       alert("Welcome to our site "+ $email);
+      $('input[name="email"]').val("");
     }
     });
 
@@ -117,6 +118,14 @@ $(document).ready(function() {
       var $actualcomm = "<b style='color: #82192c'>"+ $usercomm + "</b><br/>";
       if($usercomm.length > 0){
         $('#postcomments').append($actualcomm);
+        $('input[name="comm"]').val("");
     }
+    });
+
+    $('input[name="comm"]').keypress(function(e){
+      var key = e.which;
+      if(key === 13){
+        $('#post').click();
+      };
     });
 });
