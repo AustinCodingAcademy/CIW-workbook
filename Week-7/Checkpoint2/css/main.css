@@ -474,7 +474,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     height: 800px;
-    background-image: url(../img/wine-bg.jpg);
+    background-image: url(../img/wine14.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -502,6 +502,7 @@ text-align: center;
     padding-top: 32px;
     font-size: 14px;
     color: white;
+    display: none;
 
   }
 
@@ -552,8 +553,9 @@ text-align: center;
 
     .second {
       display: flex;
-      flex-direction: row;
-      height: 660px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 1320px;
     }
 
     .est {
@@ -800,8 +802,8 @@ text-align: center;
 
   .sixth {
     display: flex;
-    flex-direction: row;
-    height: 660px;
+    flex-direction: column;
+    height: 1320px;
   }
 
   .joinus {
@@ -928,7 +930,7 @@ text-align: center;
   }
 }
 
-/*@media (max-width: 640px) {
+@media (max-width: 640px) {
 
   .container {
     display: flex;
