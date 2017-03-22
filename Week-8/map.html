@@ -1,0 +1,59 @@
+<html>
+ <head>
+ <style>
+ #map {
+   width: 50%;
+   height: 400px;
+   background-color: grey;
+ }
+</style>
+
+ </head>
+ <body>
+ <h3>Contact Us</h3>
+ <div id="map"></div>
+
+
+   <script>
+
+
+     function initMap() {
+       var uluru = {lat: 32.778734, lng: -96.83733439999997};
+       var map = new google.maps.Map(document.getElementById('map'), {
+         zoom: 15,
+         center: uluru
+       });
+       var marker = new google.maps.Marker({
+         position: uluru,
+         map: map
+       });
+     }
+   </script>
+   <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh2RhP1K__qAQDnqbIpSr3uz7BnqATe0Q&callback=initMap">
+</script>
+
+<script>
+$.confirm({
+    title: 'Confirm!',
+    content: 'Simple confirm!',
+    buttons: {
+        confirm: function () {
+            $.alert('Confirmed!');
+        },
+        cancel: function () {
+            $.alert('Canceled!');
+        },
+        somethingElse: {
+            text: 'Something else',
+            btnClass: 'btn-blue',
+            keys: ['enter', 'shift'],
+            action: function(){
+                $.alert('Something else?');
+            }
+        }
+    }
+});
+</script>
+ </body>
+</html>
