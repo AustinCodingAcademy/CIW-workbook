@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="http:/code.jquery.com/jquery.min.js">
+</script>
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $(".add-row").click(function(){
+              var name = $("#name").val();
+              var age = $("#age").val();
+              var city = $("#city").val();
+              var email = $("#email").val();
+              var markup = "<tr><td>" + name + "</td><td>" + age + "</td><td>" + city + "</td><td>" + email + "</td></tr>";
+              $("table tbody").append(markup);
+          });
+
+        });
+  </script>
+</head>
+
+<body>
+
+<style>
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 25px;
+  }
+
+  </style>
+
+<form>
+  <input type="text" id="name" placeholder="Name">
+  <input type="text" id="age"  placeholder="Age">
+  <input type="text" id="city" placeholder="City">
+  <input type="text" id="email" placeholder="Email">
+  <input type="button" class="add-row" value="Add Row">
+</form>
+    <table class="MyTable" style="border: 1px solid black">
+<thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>City</th>
+          <th>Email</th>
+        </tr>
+</thead>
+<tbody>
+
+  <tr>
+    <td>Ruben Estrada</td>
+    <td>28</td>
+    <td>Dallas</td>
+    <td>restrada214@gmail.com</td>
+  </tr>
+</tbody>
+
+
+    </table>
+
+
+
+
+
+</body>
