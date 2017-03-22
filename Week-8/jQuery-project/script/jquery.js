@@ -9,6 +9,13 @@ $(document).ready(function() {
   }
 );
 
+$('.searchbox').click(function(){
+  $("input").toggleClass("fback");
+});
+
+$('.tglclass').click(function(){
+  $("table").toggleClass("fback");
+});
     var $purchaseshiraz = "<tr><td>Foundry Shiraz $50</td></tr>";
     $('#shiraz').click(function() {
         $('#shoptable').append($purchaseshiraz);
@@ -64,4 +71,14 @@ $(document).ready(function() {
             $('#post').click();
         };
     });
+
+    $('.fa-bars').click(function(){
+      $('.top-logo').toggleClass('fback');
+      $('nav>a').toggleClass('menu-anc');
+    });
+
+    // $('.').click(function() {
+    //     $("#accordion" ).accordion();
+    //   } );
+
 });

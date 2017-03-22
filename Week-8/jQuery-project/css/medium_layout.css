@@ -1,9 +1,12 @@
-nav>a {
+ .menu-anc{
   display: none;
 }
 
 .menu-bars {
   display: unset;
+  position: absolute;
+  right: 20px;
+  top: 10px;
 }
 
 .second-top {
@@ -16,4 +19,9 @@ nav>a {
 
 .footer-top {
   flex-direction: column;
+}
+
+nav {
+  padding-right: 60px;
+  padding-bottom: 50px;
 }

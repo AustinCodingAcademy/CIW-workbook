@@ -1,3 +1,7 @@
+body{
+  min-width: 480px;
+}
+
 nav>a {
     position: relative;
 }
@@ -15,6 +19,17 @@ nav>a {
     padding: 20px;
     z-index: -3;
     line-height: 35px;
+}
+
+.search-bag{
+  list-style: none;
+  position: absolute;
+  color: #ffffff;
+  background-color: #292929;
+  width: 100px;
+  padding: 20px;
+  z-index: -3;
+  line-height: 35px;
 }
 
 .dropdown>li {
