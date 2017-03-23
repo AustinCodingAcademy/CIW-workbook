@@ -2,6 +2,11 @@
  display: none;
 }
 
+.top-logo>img{
+  background-color: grey;
+  border-radius: 10px;
+}
+
 nav {
   flex-direction: column;
   align-items: center;
@@ -14,8 +19,15 @@ nav > a{
   padding: 5px;
 }
 
-.first>img{
-  z-index: -1;
+header {
+  background-color: black;
+  opacity: .8;
+}
+
+.dropdown{
+
+  width: 300px;
+  text-align: center;
 }
 
 .third-top {

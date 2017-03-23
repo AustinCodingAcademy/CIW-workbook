@@ -67,6 +67,7 @@ header {
     align-items: center;
     background-color: grey;
     opacity: 0.8;
+    z-index: 5;
 }
 
 .top-logo {
