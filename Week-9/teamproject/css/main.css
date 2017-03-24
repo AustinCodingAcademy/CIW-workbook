@@ -1,0 +1,116 @@
+body {
+
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 1500px;
+}
+
+.headrow {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-color: white;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.second {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-color: white;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: white;
+
+}
+
+.vidbox {
+  margin: auto;
+}
+
+.viddesc {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: white;
+}
+
+.desc {
+  margin: 60px auto 0 auto;
+  width: 300px;
+}
+
+.local {
+  font-weight: bold;
+  font-family: serif;
+  font-style: italic;
+  font-size: 46px;
+  padding-bottom: 40px;
+}
+
+.locdesc {
+  font-size: 24px;
+  text-align: justify;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-color: white;
+}
+
+.google {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+
+}
+
+#map {
+  width: 500px;
+  height: 500px;
+}
+
+.formsub {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 75px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+input {
+  width: 300px;
+}
+
+button {
+  width: 100px;
+}
+
+.magic {
+  font-size: 24px;
+  color: red;
+  display: none;
+}
