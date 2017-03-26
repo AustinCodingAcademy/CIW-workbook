@@ -1,12 +1,11 @@
-// function hide() {
-//   $(document).ready(function(){
-//       $("p").click(function(){
-//           $(this).hide();
-//       });
-//   });
-//
-// }
-
 function myFunction(){
-  alert("hello");
+  alert ("hello");
+  if (name.val).length >=0 && email.val().length >=0){
+    alert ("hello - inside of if stmt");
+  }
+  else {
+    alert("Please fill-in the form correctly.");
+  }
+
+
 }
