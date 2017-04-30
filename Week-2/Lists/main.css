@@ -1,0 +1,17 @@
+body {
+  float: left;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+ol {
+  list-style: upper-roman;
+  text-align: left;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: sans-serif;
+}

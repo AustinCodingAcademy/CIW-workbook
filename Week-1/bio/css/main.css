@@ -1,0 +1,53 @@
+* {
+
+background-color: #F5F5F5;
+}
+
+html {
+  max-width: 750px;
+  padding-left: 375px;
+}
+
+header {
+  padding-bottom: 5%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+}
+
+#push {
+  padding-bottom: 15%;
+}
+
+#photo {
+  float: left;
+  width: 25%;
+  padding: 2% 2% 2% 1%;
+}
+
+#title {
+  float: left;
+  width: 53%;
+  text-align: center;
+  padding-right: 15%;
+  padding-left: 2%;
+
+}
+
+section {
+  padding-top: 5%;
+}

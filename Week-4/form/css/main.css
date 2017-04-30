@@ -1,0 +1,69 @@
+body {
+
+}
+
+header {
+  background-color: #4169FF;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+float: left;
+margin-left: 20%;
+border-collapse: collapse;
+width: 18%;
+margin-top: 10%;
+}
+
+}
+
+th, td {
+  padding: 4px;
+  text-align: center;
+}
+
+th {
+
+}
+
+aside {
+  float:left;
+  width: 15%;
+position: absolute;
+left: 0px;
+top: 100px;
+bottom: 0px;
+background-color: #4169FF;
+}
+
+.entry {
+
+}
+
+.label {
+text-align: left;
+
+}
+
+#submit {
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+#logo {
+
+}
+
+#rest {
+
+}

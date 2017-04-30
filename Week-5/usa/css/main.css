@@ -1,0 +1,78 @@
+.flag {
+  height: 400px;
+  width: 760px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 100px 0 0 100px;
+
+}
+
+.top {
+
+  display: flex;
+  flex-direction: row;
+  flex: 0.54;
+
+}
+
+.topstars {
+
+  display: flex;
+  flex-direction: column;
+  flex: 0.76;
+  background-color: #002868;
+
+
+}
+
+.topstripes {
+
+  display: flex;
+  flex-direction: column;
+  flex: 1.14;
+
+}
+
+.bottom {
+
+  flex-direction: column;
+  display: flex;
+  flex: 0.46;
+  }
+
+
+
+.red {
+  background-color: #BF0A30;
+  flex: 1;
+
+}
+
+.white {
+
+  background-color: white;
+  flex: 1;
+
+}
+
+.six {
+  display: flex;
+  flex: 1;
+justify-content: space-between;
+
+}
+
+.five {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+
+}
+
+.symbol {
+color: white;
+padding: 5px;
+
+}

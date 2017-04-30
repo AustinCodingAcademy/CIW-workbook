@@ -1,0 +1,94 @@
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-grid {
+  display: flex;
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+}
+
+.flex-grid .col {
+  flex: 1;
+}
+
+.flex-grid-thirds {
+  display: flex;
+border: 1px solid black;
+width: 200px;
+height: 150px;
+flex-direction: column;
+}
+
+.black {
+  background-color: black;
+  height: 50px;
+  width: 200px;
+}
+
+.red {
+  background-color: red;
+  height: 50px;
+  width: 200px;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 50px;
+  width: 200px;
+}
+
+.green {
+  background-color: green;
+  height: 150px;
+  width: 66px;
+}
+.white {
+
+  height: 150px;
+  width: 66px;
+}
+
+.red2 {
+  background-color: red;
+  height: 150px;
+  width: 66px;
+}
+
+.blue {
+  background-color: blue;
+  height: 150px;
+  width: 66px;
+}
+
+.white2 {
+
+  height: 150px;
+  width: 66px;
+}
+
+.red3 {
+  background-color: red;
+  height: 150px;
+  width: 66px;
+}
+
+.yellow2 {
+  background-color: yellow;
+  height: 50px;
+  width: 200px;
+}
+
+.blue2 {
+  background-color: blue;
+  height: 50px;
+  width: 200px;
+}
+
+.red4 {
+  background-color: red;
+  height: 50px;
+  width: 200px;
+}

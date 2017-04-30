@@ -1,0 +1,180 @@
+body{
+
+  background-image:url("../images/airline.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+header {
+  width: 100%;
+  border-bottom: 1px solid #97A2B4;
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  margin-right: 1%;
+  overflow: hidden;
+  background-color: #123754;
+
+}
+.logo {
+  float: left;
+width: 50%;
+
+}
+
+
+.nav {
+  width: 50%;
+  float: left;
+  background-color: #123754;
+  text-align: center;
+
+  padding-left: 800px;
+  color: #97A2B4;
+
+}
+
+.total {
+background-color: #003D4A;
+  width: 25%;
+  margin-top: 5%;
+  margin-left: 13%;
+
+}
+
+.tuff {
+  padding-right: 25px;
+}
+
+.home {
+  float: left;
+}
+
+.deals{
+  float: left;
+}
+
+.schedule {
+  float: left;
+}
+.register {
+
+  float: left;
+}
+
+.entry {
+  background-color: #123754;
+  height: 380px;
+
+}
+.depart {
+  border: 2px solid white;
+  width: 40%;
+  height: 10%;
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 16px;
+  float: left;
+}
+
+.arrival {
+  border: 2px solid white;
+  width: 40%;
+  height: 10%;
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 16px;
+  float: left;
+  clear: right;
+}
+
+.start {
+  border: 2px solid white;
+  width: 40%;
+  height: 10%;
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 16px;
+  float: left;
+}
+
+.return {
+  border: 2px solid white;
+  width: 40%;
+  height: 10%;
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 16px;
+  float: left;
+  clear: right;
+}
+
+.passengers {
+  border: 2px solid #123754;
+  width: 30%;
+  height: 10%;
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 16px;
+  padding-top: 2%;
+  float: left;
+  color: white;
+}
+
+.drop {
+  border: 2px solid white;
+  width: 10%;
+  height: 10%;
+  margin-top: 30px;
+
+  font-size: 16px;
+  float: left;
+}
+
+.type {
+  color: white;
+  width: 40%;
+  height: 10%;
+  margin-top: 30px;
+  padding-top: 2%;
+  padding-left: 2%;
+  font-size: 16px;
+  float: left;
+  clear: right;
+}
+
+.search {
+  background-color: #0063B7;
+  width: 80%;
+  height: 10%;
+  margin-top: 20px;
+  margin-left: 10%;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 7%;
+  float: left;
+}
+
+.airplane {
+  float: left;
+  width: 33%;
+  background-color: #0063B7;
+  text-align: center;
+
+}
+
+.bed {
+  float: left;
+  width: 33%;
+  background-color: #018D80;
+  text-align: center;
+}
+
+.car {
+  float: left;
+  width: 33%;
+  background-color: #018D80;
+  text-align: center;
+
+}
