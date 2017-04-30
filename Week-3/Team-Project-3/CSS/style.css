@@ -1,0 +1,71 @@
+body {
+    background-image: url("../images/airline.jpg");
+    color: white;
+}
+
+.header{
+  height: 10%;
+  background-color: #003D4A;
+}
+
+.logo{
+  float: left;
+  background-color: #003D4A;
+}
+
+.nav {
+  float: right;
+  margin: 30px;
+  background-color: #003D4A;
+}
+
+.home{
+  float: left;
+  vertical-align: middle;
+  padding: 7px;
+  background-color: #003D4A;
+}
+
+.section{
+  float: left;
+  clear: left;
+  margin-left: 50px;
+  margin-top: 80px;
+  background-color: #203737;
+}
+
+.topofsec {
+  position: relative;
+  top:0;
+  left:0;
+  height: 50px;
+}
+
+.plane {
+  background-color: green;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+  width: 33;
+}
+.controls {
+  float: left;
+  width: 45%;
+}
+
+input{
+  width: 100%;
+}
+.clear {
+  clear: left;
+}
+.search {
+    background-color: #203737;
+    margin: 15px;
+
+}
+
+.search > input {
+  background-color: blue;
+  border: solid #203737 1px;
+}

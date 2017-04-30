@@ -1,0 +1,63 @@
+body {
+    background-image: url(../images/US.jpg);
+    padding: 80px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid grey;
+    width: 1000px;
+}
+
+.top {
+    display: flex;
+    height: 250px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    flex: 1;
+    height: 250px;
+    justify-content: space-around;
+}
+
+.six {
+    display: flex;
+    justify-content: space-between;
+}
+
+.five {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15px 0 15px;
+}
+
+img {
+    height: 29px;
+    width: 29px;
+}
+
+.stripes {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.red {
+    background-color: red;
+    flex: 1;
+}
+
+.white {
+    background-color: white;
+    flex: 1;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js">
+
+    </script>
+    <title></title>
+  </head>
+  <body>
+  <section>
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/03/9b/2f/74/dallas.jpg" alt="Dallas">
+    </div>
+
+    <div class="item">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/01/0d/8e/a4/east-entrance.jpg" alt="Dallas">
+    </div>
+
+    <div class="item">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/01/22/00/c2/dallas-tx.jpg" alt="Dallas">
+    </div>
+
+    <div class="item">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/00/18/7a/85/fair-park.jpg" alt="Dallas">
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </section>
+
+  <!-- <section>
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+    <div class="films">
+      Lorem ipsum dolor sit amet, consectetur adipisicing
+      elit, sed do eiusmod tempor incididunt ut labore
+      et dolore magna aliqua. Ut enim ad minim veniam,
+
+    </div>
+  </section> -->
+  <section class="video">
+        <video width="320" height="240" controls>
+  <source src="Dallas.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+        <h3>Dallas, Texas, is located along the Trinity River. The famous landmark of "The Big D", as Dallas is often called, is the Reunion Tower. The region's cattle herding history is captured in the Heritage Village and on central Pioneer Plaza. Another
+            must-see is The Sixth Floor Museum at Dealey Plaza, which documents the assassination of John F. Kennedy in 1963. In the Arts District, the Dallas Museum of Art and the Nasher Sculpture Center are popular with visitors. The Dallas Zoo is great
+            for children and the Dallas World Aquarium also has a jungle walk with monkeys. Families will also love the interactive displays in the Perot Museum Of Nature And Science or the Six Flags Over Texas theme park in Arlington. Many visitors head
+            out to Southfork Ranch, the mansion out of the famous soap opera Dallas. Don't leave Dallas without tasting a Texas BBQ in Uptown, the nightlife district.</h3>
+
+
+    </section>
+
+    <section class="map-section">
+        <div class="map">
+            <h1>Map to DALLAS</h1>
+            <div id="map"></div>
+            <script>
+                function initMap() {
+                    var uluru = {
+                        lat: 32.7767,
+                        lng: -96.7970
+                    };
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 10,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhO008633zHLk6G1-eRkGouatYHtrBU9w&callback=initMap">
+            </script>
+        </div>
+        <div class="form-div">
+            <p id="insert"></p>
+            <form action="/action_page.php">
+                Name:<br>
+                <input type="text" name="name">
+                <br> Email:
+                <br>
+                <input type="email" name="email" placeholder="Example@example.com">
+                <br><br>
+                <button type="button" name="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+body {
+  background-color:#d2d4d8;
+  margin:0 auto;
+  margin-bottom: 50px;
+  max-width: 1100px;
+  padding-bottom: 10px;
+  padding: 5px;
+  border: dotted black 1px;
+}
+
+p {
+  font-family: cursive;
+  margin-bottom: 0;
+}
+
+li {
+  font-family: cursive;
+}
+
+hr {
+  height: 2px;
+  background-color: #6d7177;
+}
+
+ul {
+  margin-top: 0;
+}
+
+header hr {
+  height: 5px;
+}
+
+header{
+  margin-bottom: 40px;
+}
+#elimg {
+  width: 250px;
+  height: 245px;
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left:0;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #6c727a;
+  color: white;
+}
+
+.box {
+  display: inline-block;
+  margin-top: 0;
+}
+
+#box2 {
+  display: inline-block;
+  margin-left: 20em;
+}
+span {
+  font-size: 33px;
+}
+
+#elname {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.spname {
+  font-size: 65px;
+}
+
+#email {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.worktitle {
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}

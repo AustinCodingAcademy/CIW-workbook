@@ -1,0 +1,40 @@
+body{
+  background-image: url("../images/background.jpg");
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+img {
+  height: 102px;
+  width: 250px;
+}
+
+.logo {
+  background-color: #035C59;
+  height: 102px;
+}
+
+section {
+  background-color: #1758FF;
+  padding-left: 10%;
+  color: white;
+  position: relative;
+  border: 5px solid #00027F;
+}
+
+.aside {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #7E5305;
+}
+
+.button {
+  border: 2px solid #00027F;
+}
+
+.zip {
+  width: 60px;
+}

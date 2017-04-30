@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project 3</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="">
+      </div>
+      <div class="nav">
+        <div class="home">
+          <a href="#"><img src="images/home-icon.png" alt="menu items">&nbsp;&nbsp;Home</a>
+        </div>
+        <div class="home">
+          <a href="#"><img src="images/deal-icon.png" alt="menu items">&nbsp;&nbsp;Travel Deals</a>
+        </div>
+        <div class="home">
+          <a href="#"><img src="images/schedule-icon.png" alt="menu items">&nbsp;&nbsp;Flight Schedule</a>
+        </div>
+        <div class="home">
+          <a href="#"><img src="images/login-icon.png" alt="menu items">&nbsp;&nbsp;Register/Login</a>
+        </div>
+      </div>
+    </div>
+    <!-- <hr> -->
+    <div class="section">
+      <div class="topofsec">
+        <div class="plane" style="background-color: blue;">
+          <img src="images/plane-icon.png" alt="">
+        </div>
+        <div class="plane" >
+          <img src="images/hotel-icon.png" alt="">
+        </div>
+        <div class="plane" >
+          <img src="images/car-icon.png" alt="">
+        </div>
+      </div>
+      <div class="itinerary">
+        <div class="controls">
+          <input type="text" name="depart" placeholder="Depart">
+        </div>
+        <div class="controls">
+          <input type="text" name="arrive" placeholder="Arrive">
+        </div>
+        <div class="clear"></div>
+        <div class="controls">
+          <input type="date" name="cal" placeholder="dd/mm/yyyy">
+        </div>
+        <div class="controls">
+          <input type="date" name="cal" placeholder="dd/mm/yyyy">
+        </div>
+        <div class="clear"></div>
+        <div class="controls">
+          Passengers
+          <select class="dropdown" name="passengers" >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="controls">
+          <input type="radio" name="pass" value="Return" checked>Return
+          <input type="radio" name="pass" value="Depart"> Depart
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="search">
+        <input type="button" name="search" value="Search Flights">
+      </div>
+    </div>
+  </body>
+</html>

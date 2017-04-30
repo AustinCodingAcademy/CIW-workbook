@@ -1,0 +1,42 @@
+body {
+  background-color:#d2d4d8;
+  margin:0 auto;
+  max-width: 600px;
+}
+
+#elname {
+  font-size: 50px;
+  margin-bottom: 0;
+  background-color: white;
+  margin-left: 200px;
+}
+.spname {
+  font-size: 65px;
+}
+
+#email {
+  font-size: 20px;
+  margin-top: 0;
+  background-color: white;
+  height: 30px;
+}
+
+section {
+  background-color: #6488c1;
+  margin-top: -25px;
+  color: white;
+  padding: 10px;
+}
+
+#elimg {
+  width: 250px;
+  height: 245px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 25px;
+  position: relative;
+}
+
+p {
+  font-family: cursive;
+}
