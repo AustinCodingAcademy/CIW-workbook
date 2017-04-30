@@ -1,0 +1,76 @@
+/**{
+  border: 2px solid black;
+  }*/
+
+.container{
+  background-color: green;
+  display: flex;
+  flex-direction: column;     /* make the articales stacked vertically*/
+
+  /*justify-content: space-around;;
+  flex-wrap: wrap;
+  height: 100vh;
+  flex: 3;*/
+}
+.column1{
+  /*display: flex;    enabling child column to use Flexbox*/
+  flex: 1;          /* stretch to fill up the remaining space*/
+}
+.column2{
+  /*display: flex;    enabling child column to use Flexbox*/
+  flex: 1;
+}
+/*.article{
+  flex: 1;
+}
+.header{
+
+  color: white;
+  flex: 1;
+}
+.town{
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: gray;
+  flex: 1;
+}
+.ViewPoint{
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  flex-basis: 30px;
+
+  /*background-color: white;
+  flex-basis: auto;
+  flex-grow: 10;
+  flex-shrink:
+}
+.Staduim{
+  flex: 1;
+}
+.City{
+ flex: 1;
+}
+.Earth{
+  flex: 1;
+}
+.CitySkyLine{
+  flex: 1;
+}
+.text{
+  flex-wrap: wrap;
+}
+.box7{
+  background-color: pink;
+}
+.box8{
+  background-color: red;
+}
+.box9{
+  background-color: brown;
+}
+.box10{
+  background-color: red;
+}*/

@@ -1,0 +1,400 @@
+
+h1, h2, h3, h4, h5, p {
+    font-family: 'Georgia';
+    font-style: italic;
+}
+h3 {
+    font-size: 32px;
+    line-height: 40px;
+}
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.main-container{
+  width: 100%;
+  height: 100vh;
+}
+.header{
+  display: flex;
+  flex: 1;
+  padding: 3px;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 100;
+  width: 100%;
+  max-height: 55px;
+  line-height: 53px;
+  border-bottom: 1px solid #ccc;
+}
+.logo-light{
+  flex: 1;
+  background: url("../img/logo-light.png");
+  z-index: 60;
+  max-height: 150px;
+  width: 100px;
+  text-align: start;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.logo-dark{
+  flex: 1;
+  z-index: 60;
+  max-height: 50px;
+  width: 100px;
+  text-align: start;
+  box-sizing: border-box;
+}
+.topimage-box{
+  display: flex;
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+}
+.topimgA1{
+  flex: 1;
+  background: url("../img/wine-bg.jpg");
+  height: 100vh;
+  width:100%;
+  z-index: 20;
+  display: flex;
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+  flex-wrap: wrap;
+}
+.big-letter-f{
+  vertical-align: middle;
+  max-width: 100%;
+  margin-bottom: 48px;
+  align-items: center;
+  justify-content: center;     /* center items vertically, in this case */
+}
+.image-square {
+  display: flex;
+  min-height: 640px;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.text-center {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+h5.uppercase {
+  letter-spacing: 2px;
+  margin-right: -2px;
+}
+.uppercase {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0,auto;
+}
+.discrption{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  align-content: center;
+}
+.image-sig {
+  max-height: 80px;
+}
+.right-image{
+  flex: 1;
+}
+.right-image > img{
+  width: 100%;
+}
+.farm-worker-img{
+  display: flex;
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+  align-content: center;
+  background: url("../img/wine13.jpg");
+  height: 100vh;
+  width:100%;
+}
+.product{
+  flex: 1;
+  z-index: 30;
+  color: white;
+}
+.product > p{
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.image-bottles-Box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.winebottle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+}
+.image-Bottle {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+align-self: center;
+height: 450px;
+width: 200px;
+font-weight: bold;
+}
+.image-Bottle > hr{
+ align-self: baseline;
+ align-items: baseline;
+}
+.text-left{
+  flex: 1;
+}
+.text-left > h5,h4{
+  text-align: center;
+}
+.btn-shop{
+  align-items: center;
+  text-align: center;
+  background-color: #91A05C;
+  text-decoration: none;
+  color: white;
+  border: 2px solid #91a05c;
+  padding: 0 26px;
+  height: 40px;
+  min-width: 150px;
+  line-height: 36px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 0;
+}
+.awards-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  padding: 10px;
+  background: url("../img/wine12.jpg");
+  height: 100vh;
+  width:100%;
+  z-index: 10;
+}
+.title-text{
+flex-wrap: wrap;
+color: white;
+}
+.awards-3{
+  display: flex;
+  flex: 2;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: column;
+  flex-flow: row;
+  width: 100%;
+  justify-content: center;
+}
+.red-grapes-bkgd{
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  justify-content:center;
+  flex-flow: row;
+}
+.award-pic{
+  flex: 1;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+.award-pic > img{
+  padding: 10px;
+  height: 250px;
+  width: 200px;
+}
+.award-pic > p{
+  color: white;
+}
+.contact-us{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.red-wine{
+  flex: 1;
+  padding: 10px;
+}
+.red-wine > img{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #292929;
+  background-size: cover;
+  background-position: 50% 50%
+}
+.testing{
+  display: flex;
+  flex: 1;
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+  padding: 0 10%;
+  padding-top: 0px;
+  padding-right: 10%;
+  padding-bottom: 0px;
+  padding-left: 10%;
+  top: 50%;
+}
+.text > p{
+  flex: 1;
+  align-items: center;
+}
+.newsltr-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #292929;
+  height: 100vh;
+  width:100%;
+  border: 2px solid red;
+}
+.signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding: 10px;
+  color: white;
+  width: 100%;
+
+}
+.signup-text > h3{
+  padding: 20px;
+  flex: 2;
+  flex-wrap: wrap;
+
+}
+.signup-text > p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+.signup-form-box{
+  display: flex;
+  /*flex: 1;*/
+  justify-content: center;
+  align-items: center;
+  /*justify-content: space-between;*/
+  flex-direction: column;
+  width: 100%;
+}
+.contact-info{
+  flex: 1;
+  flex-wrap: nowrap;
+  margin: auto;
+  line-height: 24px;
+  padding-top: 10px;
+}
+.transparent{
+  margin: 2px;
+}
+.social-media{
+  flex: 1;
+  color: white;
+  text-align: center;
+
+}
+input.transparent, button.transparent {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+input[type="email"] {
+    background: #292929;
+    border: 1px soild #fff;
+    width: 100%;
+    height: 49px;
+    /*padding-right: 20px;*/
+    font-weight: 500;
+    margin-bottom: 24px;
+    border-radius: 0;
+}
+button.transparent{
+  background-color: #91A05C;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+/*
+  Media
+*/
+@media all and (max-width:320px) {
+/*.header{
+    background-color: #909;
+    border: 1px solid #70687A;
+}*/
+.text-center{
+flex-wrap: wrap;
+flex-direction: column;
+}
+.image-bottles-Box{
+  flex-flow: wrap;
+  flex-direction: column;
+}
+.red-grapes-bkgd{
+  flex-direction: column;
+}
+.signup{
+flex-flow: wrap;
+flex-direction: column;
+}
+.testing{
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+/*.awards-pic{
+  flex-wrap: wrap;
+  flex-flow: row;
+  flex-direction: column;
+}*/
+
+/*.awards-container{
+  flex-direction: column;
+}
+.awards-3{
+  flex-flow: row;
+  flex-direction: column;
+}*/
+.contact-us{
+  flex-direction: column;
+}

@@ -1,0 +1,33 @@
+.header{
+  width:100%;
+  
+  background-color: black;
+}
+.nav{
+  float:left;
+}
+.logo{
+  float:left;
+}
+.contaier{
+  width:100%;
+}
+.link {
+  display: inline;
+}
+#OneBigBox{
+  width:100%;
+  height: 50%;
+}
+.box4{
+  max-width: 100px;
+}
+.txt2 .box2 .box4 .OneBigBox {
+  clear: left;
+}
+.text
+{
+width:11em;
+border:1px solid #000000;
+text-wrap:normal;
+}

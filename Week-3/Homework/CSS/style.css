@@ -1,0 +1,64 @@
+body{
+ background-color: powderblue;
+}
+table {
+    float: left;
+    width:70%
+}
+
+#table-section {
+  overflow-x:auto;
+}
+
+caption {
+    display: table-caption;
+    text-align: center;
+    text-shadow: 0 0 3px #FF3333;
+    font-size: 60px;
+    padding:20px;
+}
+
+/*#tHeader{
+  background-color:Black;
+  font-weight:bold;
+  font-color:white;
+}*/
+
+/*#rowspan{
+  background-color: Blue;
+}*/
+
+th {
+background-color: Black;
+font-weight:bold;
+color:white;
+height: 50px;
+font-size: 30px;
+font-style: oblique;
+}
+table, th, td {
+   border: 1px solid black;
+   text-align: center;
+}
+#rowspan {
+  background-color: blue;
+  font-style: italic;
+  font-weight:bold;
+  color:white;
+  /*font-size: 30px;*/
+  font-size: 1.875em;
+  vertical-align: middle;
+}
+
+#colspan {
+  background-color: gray;
+  font-style: italic;
+  font-weight:bold;
+  color:white;
+  /*font-size: 30px;*/
+  font-size: 1.875em;
+  vertical-align: middle;
+}
+/*td {
+    text-align: center;
+}*/
