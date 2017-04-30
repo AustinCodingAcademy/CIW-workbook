@@ -1,0 +1,48 @@
+* {
+  color: #085687;
+
+}
+
+h1{
+text-align: center;
+
+}
+
+.left {
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	width: 10%;
+	color: #085687;
+	height: 500px;
+	background-color: #085687;
+	margin-bottom: 10px;
+	padding-right: 20px;
+}
+
+.right{
+  position: relative;
+  float: left;
+
+
+}
+
+header{
+  height: 1px;
+  width: 1px;
+}
+.submit{
+  text-shadow: black;
+  background: #085687;
+  color: #ffffff;
+}
+.reset{
+  text-shadow: black;
+  background: #085687;
+  color: #ffffff;
+}
+.button{
+  text-shadow: black;
+  background: #085687;
+  color: #ffffff;
+}

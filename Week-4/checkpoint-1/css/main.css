@@ -1,0 +1,464 @@
+
+body {
+  font-family: sans-serif;
+}
+.top {
+  width: 100%;
+  height: 85px;
+
+}
+.logo {
+  padding-top: 10px;
+  width: 200px;
+}
+.logoContainer {
+  float: left;
+
+}
+.nav {
+  float: right;
+  margin-right: 100px;
+  padding-top: 30px;
+}
+.link {
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.HeaderImage {
+width:100%;
+height: 450px;
+}
+.HeaderImageContainer {
+
+}
+.backColorBoxTitleText {
+  height: 80px;
+background: rgba(0, 0, 0, 0.5);
+  width: 35%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 32%;
+  margin-top: 90px;
+}
+.backColorBoxSubText {
+  height: 80px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  text-align: center;
+  vertical-align:middle;
+  position: absolute;
+  left: 20%;
+  margin-top: 85px;
+}
+.HeaderImageText {
+  padding-top: 25px;
+  color: #FFF;
+  opacity: 1.0;
+  font-family: sans-serif;
+  font-size: 32px;
+}
+.HeaderImageSubText {
+  padding-top: 25px;
+  color: #FFF;
+  font-family: sans-serif;
+  font-size: 28px;
+
+}
+
+.HeaderBigTitle {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+
+
+}
+.HeaderSmallTitle {
+  position: absolute;
+  font-size: 20px;
+  top: 40%;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.HeaderButton {
+  height: 55px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 3px solid white;
+  width: 15%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 42.5%;
+  top: 55%;
+  color: #FFF;
+  margin-top: 80px;
+  font-family: sans-serif;
+}
+
+.HeaderText {
+  padding-top: 9%;
+}
+
+
+
+.Main {
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.TwoColumnImageDescr  {
+  width: 100%;
+}
+
+.imgContainer {
+  float: left;
+  width: 500px;
+}
+.textContainer {
+  padding-top: 45px;
+  float: left;
+  width: 500px;
+  padding-right: 5%;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.textCenterSubtitle {
+  text-align: center;
+  font-weight: bold;
+
+}
+.sideImage{
+  width: 100%;
+  float: left;
+}
+.top {
+  width: 100%;
+  height: 85px;
+
+}
+.logo {
+  padding-top: 10px;
+  width: 200px;
+}
+.logoContainer {
+  float: left;
+
+}
+.nav {
+  float: right;
+  margin-right: 100px;
+  padding-top: 30px;
+}
+.link {
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.HeaderImage {
+width:100%;
+height: 450px;
+}
+.HeaderImageContainer {
+
+}
+.backColorBoxTitleText {
+  height: 80px;
+background: rgba(0, 0, 0, 0.5);
+  width: 35%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 32%;
+}
+.backColorBoxSubText {
+  height: 80px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 20%;
+}
+.HeaderImageText {
+  padding-top: 25px;
+  color: #FFF;
+  opacity: 1.0;
+}
+.HeaderImageSubText {
+  padding-top: 25px;
+  color: #FFF;
+
+}
+
+.HeaderBigTitle {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+
+
+}
+.HeaderSmallTitle {
+  position: absolute;
+  font-size: 20px;
+  top: 40%;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.HeaderButton {
+  height: 55px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 3px solid white;
+  width: 15%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 42.5%;
+  top: 55%;
+  color: #FFF;
+}
+
+.HeaderText {
+  padding-top: 9%;
+}
+
+
+
+.Main {
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.TwoColumnImageDescr  {
+  width: 100%;
+}
+
+.imgContainer {
+  float: left;
+  width: 500px;
+}
+.textContainer {
+  padding-top: 45px;
+  float: left;
+  width: 500px;
+  padding-right: 5%;
+  padding-left: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+.textCenterSubtitle {
+  text-align: center;
+  font-weight: bold;
+
+}
+.sideImage{
+  width: 450px;
+  height: 500px;
+  margin: 5px;
+}
+.rowimages{
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+  padding: 5px;
+  margin: 10px;
+  padding-left: 20px;
+
+}
+
+.row1{
+position: relative;
+float:left;
+}
+.rowimage1{
+  float: left;
+  height: 200px;
+  width: 150px;
+}
+.rowimage1texttitle{
+  text-align: center;
+  font-weight: bold;
+
+}
+  .rowimage1text{
+    height: 50px;
+    padding-top: 45px;
+    float: left;
+    width: 150px;
+    padding-right: 5%;
+    padding-left: 5px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+.row2{
+position: relative;
+float:left;
+}
+.rowimage2{
+  float: left;
+  height: 200px;
+  width: 150px;
+}
+
+.rowimage2texttitle{
+  text-align: center;
+  font-weight: bold;
+}
+
+.rowimage2text{
+  height: 50px;
+  padding-top: 45px;
+  float: left;
+  width: 150px;
+  padding-right: 5%;
+  padding-left: 5px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 0px;
+}
+.row3{
+position: relative;
+float:left;
+}
+
+.rowimage3{
+  float:left;
+  height: 200px;
+  width: 150px;
+
+}
+.rowimage3texttitle{
+  text-align: center;
+  font-weight: bold;
+}
+
+.rowimage3text {
+  height: 50px;
+  padding-top: 45px;
+  float: left;
+  width: 150px;
+  padding-right: 5%;
+  padding-left: 5px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.rowimage4{
+  float:left;
+  position: relative;
+  height: 200px;
+  width: 150px;
+
+}
+.rowimage4texttitle{
+  text-align: center;
+  font-weight: bold;
+}
+
+.rowimage4text {
+  height: 50px;
+  padding-top: 50px;
+  float: left;
+  width: 150px;
+  padding-right: 5%;
+  padding-left: 5px;
+  font-size: 18px;
+  text-align: center;
+
+}
+.sidebysideimages{
+  float: left;
+  position: relative;
+  padding-top: 350px;
+  width:1200px;
+  height: 1500px;
+}
+.sun{
+  position: relative;
+  float: left;
+  height: 300px;
+  width:450px;
+  padding:40px;
+  margin:10px;
+}
+
+.moon{
+  position: relative;
+  float: left;
+  height: 300px;
+  width:450px;
+  padding: 40px;
+  margin: 10px;
+}
+
+.sidebysidetext{
+  position: relative;
+  float: left;
+  width: 1200px;
+}
+.lefttext{
+  height: 25px;
+  padding-top: 25px;
+  float: left;
+  width: 450px;
+  padding-right: 5%;
+  padding-left: 40px;
+  font-size: 18px;
+  text-align: center;
+}
+.righttext{
+    height: 25px;
+    padding-top: 25px;
+    float: left;
+    width: 450px;
+    padding-right: 5%;
+    padding-left: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.FooterImageContainer{
+padding-top: 50px;
+}
+.FooterImage{
+  padding-top: 100px;
+  width:100%;
+  height: 500px;
+  position: relative;
+  float: left;
+  padding-right: 80px;
+  z-index: -1;
+
+}
+.FooterBigTitle {
+  position: absolute;
+  padding-top: 650px;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: white
+}
+.FooterImageText{
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  paddingtop: 25px;
+}
+.button{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+
+}

@@ -1,0 +1,125 @@
+.top {
+  width: 100%;
+  height: 85px;
+
+}
+.logo {
+  padding-top: 10px;
+  width: 200px;
+}
+.logoContainer {
+  float: left;
+
+}
+.nav {
+  float: right;
+  margin-right: 100px;
+  padding-top: 30px;
+}
+.link {
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.HeaderImage {
+width:100%;
+height: 450px;
+}
+.HeaderImageContainer {
+
+}
+.backColorBoxTitleText {
+  height: 80px;
+background: rgba(0, 0, 0, 0.5);
+  width: 35%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 32%;
+}
+.backColorBoxSubText {
+  height: 80px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 20%;
+}
+.HeaderImageText {
+  padding-top: 25px;
+  color: #FFF;
+  opacity: 1.0;
+}
+.HeaderImageSubText {
+  padding-top: 25px;
+  color: #FFF;
+
+}
+
+.HeaderBigTitle {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+
+
+}
+.HeaderSmallTitle {
+  position: absolute;
+  font-size: 20px;
+  top: 40%;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.HeaderButton {
+  height: 55px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 3px solid white;
+  width: 15%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 42.5%;
+  top: 55%;
+  color: #FFF;
+}
+
+.HeaderText {
+  padding-top: 9%;
+}
+
+
+
+.Main {
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.TwoColumnImageDescr  {
+  width: 100%;
+}
+
+.imgContainer {
+  float: left;
+  width: 500px;
+}
+.textContainer {
+  padding-top: 45px;
+  float: left;
+  width: 500px;
+  padding-right: 5%;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.textCenterSubtitle {
+  text-align: center;
+  font-weight: bold;
+
+}
+.sideImage{
+  width: 100%;
+}
