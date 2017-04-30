@@ -1,0 +1,21 @@
+* {
+  color: #21324c;
+}
+p {
+  font-size:20px;
+}
+
+
+*{
+  font-family: Georgia;
+}
+/*comment
+*/
+
+
+}
+.header {
+  background-image: url("Pictures\2016-03-27");
+  height: 400px;
+  background-position: center center;
+}

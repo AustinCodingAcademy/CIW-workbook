@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 70px;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-style: solid;
+	border-width: thin;
+	border-color: inherit;
+	font-family: 'Martel Sans', sans-serif;
+	overflow-y: hidden
+}
+
+
+.tier {
+  color: white;
+background-color: black;
+font-size: 20px;
+font-style: normal;
+
+
+overflow-y: hidden;
+padding: 40px 80px;
+
+
+
+
+
+
+}
+
+.option {background-color: #6495ED;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+	word-spacing:normal;;
+	padding: 50px;
+	width: 200px;
+
+
+}
+
+
+
+
+.offrow {background-color: #F0F8FF;
+	color: black;
+	font-size: 13px;
+	font-style: normal;
+	word-spacing: normal;
+	padding: 50px;
+	width: 100px;
+
+
+
+
+
+}
+
+.red {background-color: #DC143C;
+	color: white;
+	padding: 60px;
+
+}
+
+.green {background-color: #228B22;
+	color: white;
+	padding: 60px;
+}
+
+
+
+.blue {background-color: #1E90FF;
+		color: white;
+		padding: 60px;
+	}
+
+.fa.fa {color: red;}
+.fa.fa-hdd-o {color: white;}
+.fa.fa-shield {color: white;}
+.fa.fa-signal {color: white;}
+.fa.fa-headphones {color: white;}

@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flag {
+    border: solid black 1px;
+
+    width: 200px;
+    height: 150px;
+    flex-direction: column;
+    display: flex;
+}
+
+.flagv {
+    border: solid black 1px;
+    display: flex;
+    width: 200px;
+    height: 150px;
+}
+
+.germany1 {
+    background-color: black;
+    flex: 1;
+}
+
+.germany2 {
+    background-color: red;
+    flex: 1;
+}
+
+.germany3 {
+    background-color: yellow;
+    flex: 1;
+}
+
+.italy1 {
+    background-color: green;
+    flex: 1;
+}
+
+.italy2 {
+    background-color: white;
+    flex: 1;
+}
+
+.italy3 {
+    background-color: red;
+    flex: 1;
+}
+
+.france1 {
+    background-color: blue;
+    flex: 1;
+}
+
+.france2 {
+    background-color: white;
+    flex: 1;
+}
+
+.france3 {
+    background-color: red;
+    flex: 1;
+}
+
+.columbia1 {
+    background-color: yellow;
+    flex: 1;
+}
+
+.columbia2 {
+  background-color: blue;
+  flex: 1;
+}
+
+.columbia3 {
+    background-color: red;
+    flex: 1;
+}
